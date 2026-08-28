@@ -144,7 +144,20 @@ function esitoReale(gamba, eventi) {
   else if (esito === 'X') vinta = reale === 'X';
   else if (esito === '1') vinta = reale === '1';
   else if (esito === '2') vinta = reale === '2';
-  else vinta = false;
+  else if (esito === 'OVER' || esito === 'UNDER') {
+    vinta = false;
+    gamba._ignore = true;
+    console.log(`  ${gamba.partita}: tipo esito Over/Under non gestito, ignorato`);
+  } else {
+    // Puntata sul "vincitore" (es. nome giocatore tennis, squadra basket):
+    // VINTA se la squadra/gIocatore scelto è quella vincente.
+    const rawEsito = String(gamba.esito || '').trim();
+    let lato = null;
+    if (nomiCoincidono(rawEsito, casa)) lato = '1';
+    else if (nomiCoincidono(rawEsito, trasf)) lato = '2';
+    if (lato) vinta = reale === lato;
+    else { vinta = false; gamba._ignore = true; console.log(`  ${gamba.partita}: esito non riconosciuto '${rawEsito}', ignorato`); }
+  }
 
   const dettaglio = `${casa} ${goalCasa} - ${goalTrasf} ${trasf}`;
   return { stato: vinta ? 'VINTA' : 'PERDUTA', dettaglio, reale };
@@ -250,10 +263,19 @@ async function main() {
 
     const ancoraInCorso = esiti.some(e => e === 'IN_CORSO' || e === 'NON_TROVATO');
     const perse = esiti.some(e => e === 'PERDUTA' || e === 'LIGA_NON_TROVATA');
+    const nonVerificabile = esiti.some((e, i) => (e === 'NON_TROVATO' && gambe[i]._ignore) || gambe[i]._ignore);
 
     testo += `${g.tipo} (EUR ${g.puntata} @ ${g.quota})\n`;
     for (const gamba of gambe) {
-      testo += `  ${gamba.partita}: ${gamba.risultato}${gamba.dettaglio ? '  - ' + gamba.dettaglio : ''}\n`;
+      testo += `  ${gamba.partita}: ${gamba.risultato || 'ignorato'}${gamba.dettaglio ? '  - ' + gamba.dettaglio : ''}\n`;
+    }
+
+    if (nonVerificabile) {
+      testo += `  STATO: NON VERIFICABILE (esito non gestito)\n\n`;
+      tuttoFinito = false;
+      g.risultato = 'NON_VERIFICABILE';
+      g.nota = 'Esito non gestito dal checker (Over/Under o nome non riconosciuto).';
+      continue;
     }
 
     if (ancoraInCorso) {

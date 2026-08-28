@@ -1,38 +1,38 @@
-name: Daily Value Bet
+name: Risultati Serali
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '30 20 * * *'
   workflow_dispatch:
 
 jobs:
-  valuebet:
+  risultati:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      
-      - name: Run system
-        run: node giornata.mjs
+
+      - name: Verifica risultati
+        run: node risultati.mjs
         env:
           ODDSAPI_KEY: ${{ secrets.ODDSAPI_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
-      - name: Committa stato aggiornato
+      - name: Committa stato aggiornato (bankroll/storico)
         run: |
           git config user.name "Schedina Bot"
           git config user.email "actions@github.com"
-          git add dati/giocata.json dati/cassa.json dati/storico-giocate.json
+          git add dati/cassa.json dati/storico-giocate.json dati/giocata.json
           if git diff --cached --quiet; then
             echo "Nessun cambio da committare"
           else
-            git commit -m "Dati giornata aggiornati (automatico)"
+            git commit -m "Risultati aggiornati (automatico)"
             git push
           fi

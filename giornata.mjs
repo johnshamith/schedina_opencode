@@ -100,6 +100,49 @@ if (fs.existsSync(file)) {
       }
       await inviaFoto(messaggio.foto, messaggio.testo, messaggio.bottoni);
       console.log('[TELEGRAM] Notifica inviata!');
+
+      // Registra la schedina suggerita come giocata "in attesa" in storico-giocate.json
+      // (così la sera risultati.mjs ne verifica l'esito). Se John non la piazza o
+      // piazza altro, può modificare/quagliare la voce.
+      try {
+        const storicoFile = path.join(DATI, 'storico-giocate.json');
+        let storico = { cassaIniziale: bankroll, sito: '888Sport', giocate: [] };
+        if (fs.existsSync(storicoFile)) {
+          storico = JSON.parse(fs.readFileSync(storicoFile, 'utf8'));
+        }
+        const giorno = giocata.giorno || new Date().toISOString().slice(0, 10);
+        const giaPresente = (storico.giocate || []).some(g =>
+          g.tipo === giocata.tipo &&
+          g.data === giorno &&
+          !g.risultato
+        );
+        if (!giaPresente) {
+          storico.giocate.push({
+            data: giorno,
+            tipo: giocata.tipo,
+            puntata: giocata.puntata,
+            quota: giocata.quota,
+            probabilita: giocata.prob || 0,
+            sito: '888Sport',
+            gambe: (giocata.gambe || []).map(g => ({
+              partita: g.partita,
+              campionato: g.campionato,
+              ora: g.ora || '20:45',
+              esito: g.esito || g.dice,
+              dice: g.spiega || g.dice,
+              quota: g.quota,
+              prob: g.prob,
+              risultato: null,
+            })),
+            risultato: null,
+            cassaDopo: null,
+          });
+          fs.writeFileSync(storicoFile, JSON.stringify(storico, null, 1));
+          console.log('[STORICO] Schedina registrata in attesa di risultato.');
+        }
+      } catch (err) {
+        console.error('[Storico] Errore registrazione:', err.message);
+      }
     } catch (err) {
       console.error('[TELEGRAM] Errore invio:', err.message);
     }
