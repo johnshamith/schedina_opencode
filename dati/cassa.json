@@ -1,5 +1,5 @@
 {
-    "euro":  0.16,
+    "euro":  17.8,
     "iniziata":  "2026-08-26",
     "sito":  "888Sport",
     "storico":  [
@@ -9,15 +9,15 @@
                         "puntata":  5,
                         "quota":  2.02,
                         "risultato":  "PERDUTA",
-                        "nota":  "John l'ha persa (26/08)"
+                        "nota":  "John l\u0027ha persa (26/08)"
                     },
                     {
                         "data":  "2026-08-28",
                         "tipo":  "SINGOLA",
                         "puntata":  12,
                         "quota":  1.47,
-                        "risultato":  "PERDUTA",
-                        "nota":  "Milan 0-0 Venezia - pareggio"
+                        "risultato":  "VINTA",
+                        "nota":  "Milan 2-0 Venezia - VINTA"
                     },
                     {
                         "data":  "2026-08-28",

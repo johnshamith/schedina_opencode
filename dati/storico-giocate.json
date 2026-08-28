@@ -66,13 +66,13 @@
                                           "dice":  "vince il Milan",
                                           "quota":  1.47,
                                           "prob":  0.85,
-                                          "risultato":  "PERDUTA",
-                                          "dettaglio":  "Milan 0 - 0 Venezia"
+                                          "risultato":  "VINTA",
+                                          "dettaglio":  "Milan 2 - 0 Venezia"
                                       }
                                   ],
-                        "nota":  "Singola sicura - Milan in casa contro Venezia retrocessa. Consigliata da sistema + ricerca.",
-                        "risultato":  "PERDUTA",
-                        "cassaDopo":  0.16
+                        "nota":  "Milan 2-0 Venezia - VINTA",
+                        "risultato":  "VINTA",
+                        "cassaDopo":  17.8
                     },
                     {
                         "data":  "2026-08-28",
@@ -102,8 +102,8 @@
                                           "dice":  "vince il Milan",
                                           "quota":  1.47,
                                           "prob":  0.85,
-                                          "risultato":  "PERDUTA",
-                                          "dettaglio":  "Milan 0 - 0 Venezia"
+                                          "risultato":  "VINTA",
+                                          "dettaglio":  "Milan 2 - 0 Venezia"
                                       },
                                       {
                                           "partita":  "Sporting - Rio Ave",
