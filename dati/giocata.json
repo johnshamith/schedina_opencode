@@ -1,0 +1,54 @@
+{
+ "quando": "2026-08-27T21:17:34.523Z",
+ "giorno": "2026-08-30",
+ "tipo": "TRIPLA",
+ "sport": [
+  "tennis"
+ ],
+ "quota": 29.95,
+ "prob": 0.17543278927377887,
+ "costo": -4.254212038749677,
+ "puntata": 1,
+ "vincitaAttesa": 29.95,
+ "gambe": [
+  {
+   "partita": "Anna Blinkova vs Anna Kalinskaya",
+   "sport": "tennis",
+   "esito": "Anna Blinkova",
+   "spiega": "vince Anna Blinkova",
+   "quota": 3.55,
+   "prob": 0.5598051929480535,
+   "edge": 0.9873084349655898,
+   "kelly": 0.04191208255073887,
+   "campionato": "WTA US Open",
+   "nSiti": 5,
+   "inizio": "2026-08-30T15:00:00Z"
+  },
+  {
+   "partita": "Emiliana Arango vs Xinyu Wang",
+   "sport": "tennis",
+   "esito": "Emiliana Arango",
+   "spiega": "vince Emiliana Arango",
+   "quota": 2.95,
+   "prob": 0.5598051929480535,
+   "edge": 0.6514253191967581,
+   "kelly": 0.01174617003188518,
+   "campionato": "WTA US Open",
+   "nSiti": 4,
+   "inizio": "2026-08-30T15:00:00Z"
+  },
+  {
+   "partita": "Anastasia Potapova vs Tereza Valentova",
+   "sport": "tennis",
+   "esito": "Anastasia Potapova",
+   "spiega": "vince Anastasia Potapova",
+   "quota": 2.86,
+   "prob": 0.5598051929480535,
+   "edge": 0.601042851831433,
+   "kelly": 0.005542696086475753,
+   "campionato": "WTA US Open",
+   "nSiti": 6,
+   "inizio": "2026-08-30T15:00:00Z"
+  }
+ ]
+}

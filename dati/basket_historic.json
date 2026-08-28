@@ -1,0 +1,143 @@
+{
+ "quando": "2026-08-27T21:04:43.355Z",
+ "fonte": "baseline_manuale",
+ "team": {
+  "wnba": [
+   {
+    "nome": "New York Liberty",
+    "pts_fatti": 88.7,
+    "pts_subiti": 86.2,
+    "elo": 1550
+   },
+   {
+    "nome": "Golden State Valkyries",
+    "pts_fatti": 82.6,
+    "pts_subiti": 73.5,
+    "elo": 1580
+   },
+   {
+    "nome": "Washington Mystics",
+    "pts_fatti": 83.5,
+    "pts_subiti": 82,
+    "elo": 1520
+   },
+   {
+    "nome": "Phoenix Mercury",
+    "pts_fatti": 80,
+    "pts_subiti": 88,
+    "elo": 1420
+   },
+   {
+    "nome": "Indiana Fever",
+    "pts_fatti": 92,
+    "pts_subiti": 88.5,
+    "elo": 1540
+   },
+   {
+    "nome": "Connecticut Sun",
+    "pts_fatti": 78,
+    "pts_subiti": 85,
+    "elo": 1380
+   },
+   {
+    "nome": "Minnesota Lynx",
+    "pts_fatti": 91,
+    "pts_subiti": 80,
+    "elo": 1600
+   },
+   {
+    "nome": "Las Vegas Aces",
+    "pts_fatti": 89,
+    "pts_subiti": 84,
+    "elo": 1560
+   },
+   {
+    "nome": "Seattle Storm",
+    "pts_fatti": 84,
+    "pts_subiti": 82,
+    "elo": 1510
+   },
+   {
+    "nome": "Chicago Sky",
+    "pts_fatti": 85,
+    "pts_subiti": 87,
+    "elo": 1480
+   },
+   {
+    "nome": "Atlanta Dream",
+    "pts_fatti": 86,
+    "pts_subiti": 83,
+    "elo": 1530
+   },
+   {
+    "nome": "Dallas Wings",
+    "pts_fatti": 84,
+    "pts_subiti": 85,
+    "elo": 1490
+   },
+   {
+    "nome": "Los Angeles Sparks",
+    "pts_fatti": 79,
+    "pts_subiti": 86,
+    "elo": 1400
+   },
+   {
+    "nome": "Toronto Tempo",
+    "pts_fatti": 81,
+    "pts_subiti": 84,
+    "elo": 1440
+   }
+  ],
+  "nba": [
+   {
+    "nome": "Boston Celtics",
+    "pts_fatti": 118,
+    "pts_subiti": 108,
+    "elo": 1700
+   },
+   {
+    "nome": "Denver Nuggets",
+    "pts_fatti": 115,
+    "pts_subiti": 110,
+    "elo": 1650
+   },
+   {
+    "nome": "Oklahoma City Thunder",
+    "pts_fatti": 116,
+    "pts_subiti": 107,
+    "elo": 1680
+   },
+   {
+    "nome": "Minnesota Timberwolves",
+    "pts_fatti": 112,
+    "pts_subiti": 106,
+    "elo": 1640
+   },
+   {
+    "nome": "New York Knicks",
+    "pts_fatti": 114,
+    "pts_subiti": 109,
+    "elo": 1620
+   },
+   {
+    "nome": "Golden State Warriors",
+    "pts_fatti": 113,
+    "pts_subiti": 110,
+    "elo": 1600
+   },
+   {
+    "nome": "Los Angeles Lakers",
+    "pts_fatti": 115,
+    "pts_subiti": 112,
+    "elo": 1580
+   },
+   {
+    "nome": "Milwaukee Bucks",
+    "pts_fatti": 116,
+    "pts_subiti": 111,
+    "elo": 1610
+   }
+  ]
+ },
+ "partite": []
+}
