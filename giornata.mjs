@@ -13,6 +13,7 @@ import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { DATI, log } from './lib.mjs';
+import { inviaFoto, tripla, multipla, singola } from './notifica.mjs';
 
 const PASSI = [
   { nome: 'Scarico dati storici (calcio + basket + tennis)', file: 'scarica.mjs' },
@@ -63,5 +64,34 @@ if (fs.existsSync(file)) {
     console.log(`  Puntata: ${giocata.puntata} e`);
     console.log(`  Vincita: ${giocata.vincitaAttesa} e`);
     console.log('#'.repeat(70));
+
+    // Notifica Telegram
+    try {
+      let messaggio;
+      if (giocata.tipo === 'TRIPLA' && giocata.gambe.length === 3) {
+        const partite = giocata.gambe.map(g => ({
+          squadra1: g.partita.split(' - ')[0] || g.partita,
+          squadra2: g.partita.split(' - ')[1] || '',
+          ora: g.ora || '20:45',
+          quota: g.quota
+        }));
+        messaggio = tripla(partite, giocata.puntata);
+      } else if (giocata.tipo === 'MULTIPLA') {
+        const partite = giocata.gambe.map(g => ({
+          squadra1: g.partita.split(' - ')[0] || g.partita,
+          squadra2: g.partita.split(' - ')[1] || '',
+          ora: g.ora || '20:45',
+          quota: g.quota
+        }));
+        messaggio = multipla(partite, giocata.puntata);
+      } else {
+        const g = giocata.gambe[0];
+        messaggio = singola(g.partita, g.quota, g.esito || g.dice, giocata.puntata);
+      }
+      await inviaFoto(messaggio.foto, messaggio.testo, messaggio.bottoni);
+      console.log('[TELEGRAM] Notifica inviata!');
+    } catch (err) {
+      console.error('[TELEGRAM] Errore invio:', err.message);
+    }
   }
 }
