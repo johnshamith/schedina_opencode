@@ -1,0 +1,23 @@
+{
+ "euro": 0.16,
+ "iniziata": "2026-08-26",
+ "sito": "888Sport",
+ "storico": [
+  {
+   "data": "2026-08-28",
+   "tipo": "SINGOLA",
+   "puntata": 12,
+   "quota": 1.47,
+   "risultato": "PERDUTA",
+   "nota": "Milan 0-0 Venezia - pareggio"
+  },
+  {
+   "data": "2026-08-28",
+   "tipo": "QUINTUPLA",
+   "puntata": 5,
+   "quota": 6.32,
+   "risultato": "PERDUTA",
+   "nota": "PSG e Milan perse"
+  }
+ ]
+}

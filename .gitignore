@@ -1,0 +1,15 @@
+# Dati generati dal sistema: non serve versionarli (il workflow li rigenera)
+dati/*.csv
+dati/basket_historic.json
+dati/tennis_rankings.json
+dati/analisi.json
+dati/_*.json
+dati/_*.txt
+dati/prossime.csv
+
+# Mantieni traccia (git add -f per sovrascrivere) dei file di stato:
+!dati/giocata.json
+!dati/cassa.json
+!dati/storico-giocate.json
+!dati/quote.json
+!dati/valore.json
