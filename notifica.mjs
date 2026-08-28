@@ -80,13 +80,13 @@ export async function inviaTesto(testo) {
 
 // ─── FORMATO SINGOLA ────────────────────────────────────
 
-export function singola(partita, quota, esito, puntata, bankroll, dettagli) {
+export function singola(partita, quota, esito, puntata, bankroll) {
   const data = getData();
   const vincita = (puntata * quota).toFixed(2);
   const ore = getOra();
   const rimanente = bankroll ? (bankroll - puntata).toFixed(2) : '?';
 
-  let testo = `${data}
+  const testo = `${data}
 
 SINGOLA CONSIGLIATA
 
@@ -96,20 +96,9 @@ Esito: ${esito}
 
 Puntata: EUR ${puntata}
 Vincita: EUR ${vincita}
-Rimanente: EUR ${rimanente}`;
+Rimanente: EUR ${rimanente}
 
-  if (dettagli) {
-    testo += `\n\n--- DETTAGLI ---`;
-    if (dettagli.forma) testo += `\nForma: ${dettagli.forma}`;
-    if (dettagli.infortuni) testo += `\nInfortuni: ${dettagli.infortuni}`;
-    if (dettagli.scontroDiretto) testo += `\nScontro diretto: ${dettagli.scontroDiretto}`;
-    if (dettagli.arbitro) testo += `\nArbitro: ${dettagli.arbitro}`;
-    if (dettagli.fiducia) testo += `\nFiducia sistema: ${dettagli.fiducia}`;
-    if (dettagli.note) testo += `\nNote: ${dettagli.note}`;
-  }
-
-  testo += `\n\nVerifica quota su 888Sport
-Analisi: John + Sistema AI`;
+Verifica quota su 888Sport`;
 
   const bottoni = {
     inline_keyboard: [[
@@ -122,7 +111,7 @@ Analisi: John + Sistema AI`;
 
 // ─── FORMATO TRIPLA ────────────────────────────────────
 
-export function tripla(partite, puntata, bankroll, dettagli) {
+export function tripla(partite, puntata, bankroll) {
   const data = getData();
   const quotaTotale = partite.reduce((acc, p) => acc * p.quota, 1).toFixed(2);
   const vincita = (puntata * parseFloat(quotaTotale)).toFixed(2);
@@ -132,29 +121,19 @@ export function tripla(partite, puntata, bankroll, dettagli) {
   for (let i = 0; i < partite.length; i++) {
     const p = partite[i];
     elenco += `${i + 1}. ${p.squadra1} - ${p.squadra2}\n`;
-    elenco += `   Ore ${p.ora} | Quota ${p.quota}\n`;
-    if (p.forma) elenco += `   Forma: ${p.forma}\n`;
-    if (p.note) elenco += `   Note: ${p.note}\n`;
-    elenco += `\n`;
+    elenco += `   Ore ${p.ora} | Quota ${p.quota}\n\n`;
   }
 
-  let testo = `${data}
+  const testo = `${data}
 
 TRIPLA CONSIGLIATA
 
 ${elenco}Quota totale: ${quotaTotale}
 Puntata: EUR ${puntata}
 Vincita: EUR ${vincita}
-Rimanente: EUR ${rimanente}`;
+Rimanente: EUR ${rimanente}
 
-  if (dettagli) {
-    testo += `\n\n--- DETTAGLI ---`;
-    if (dettagli.fiducia) testo += `\nFiducia sistema: ${dettagli.fiducia}`;
-    if (dettagli.note) testo += `\nNote: ${dettagli.note}`;
-  }
-
-  testo += `\n\nVerifica quote su 888Sport
-Analisi: John + Sistema AI`;
+Verifica quote su 888Sport`;
 
   const bottoni = {
     inline_keyboard: [[
@@ -167,7 +146,7 @@ Analisi: John + Sistema AI`;
 
 // ─── FORMATO MULTIPLA ────────────────────────────────────
 
-export function multipla(partite, puntata, bankroll, dettagli) {
+export function multipla(partite, puntata, bankroll) {
   const data = getData();
   const quotaTotale = partite.reduce((acc, p) => acc * p.quota, 1).toFixed(2);
   const vincita = (puntata * parseFloat(quotaTotale)).toFixed(2);
@@ -177,29 +156,19 @@ export function multipla(partite, puntata, bankroll, dettagli) {
   for (let i = 0; i < partite.length; i++) {
     const p = partite[i];
     elenco += `${i + 1}. ${p.squadra1} - ${p.squadra2}\n`;
-    elenco += `   Ore ${p.ora} | Quota ${p.quota}\n`;
-    if (p.forma) elenco += `   Forma: ${p.forma}\n`;
-    if (p.note) elenco += `   Note: ${p.note}\n`;
-    elenco += `\n`;
+    elenco += `   Ore ${p.ora} | Quota ${p.quota}\n\n`;
   }
 
-  let testo = `${data}
+  const testo = `${data}
 
 MULTIPLA CONSIGLIATA
 
 ${elenco}Quota totale: ${quotaTotale}
 Puntata: EUR ${puntata}
 Vincita: EUR ${vincita}
-Rimanente: EUR ${rimanente}`;
+Rimanente: EUR ${rimanente}
 
-  if (dettagli) {
-    testo += `\n\n--- DETTAGLI ---`;
-    if (dettagli.fiducia) testo += `\nFiducia sistema: ${dettagli.fiducia}`;
-    if (dettagli.note) testo += `\nNote: ${dettagli.note}`;
-  }
-
-  testo += `\n\nVerifica quote su 888Sport
-Analisi: John + Sistema AI`;
+Verifica quote su 888Sport`;
 
   const bottoni = {
     inline_keyboard: [[
