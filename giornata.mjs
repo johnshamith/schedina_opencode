@@ -50,6 +50,15 @@ for (const passo of PASSI) {
 
 // Risultato finale
 const file = path.join(DATI, 'giocata.json');
+const cassaFile = path.join(DATI, 'cassa.json');
+let bankroll = 15;
+if (fs.existsSync(cassaFile)) {
+  try {
+    const cassa = JSON.parse(fs.readFileSync(cassaFile, 'utf8'));
+    bankroll = cassa.euro || 15;
+  } catch {}
+}
+
 if (fs.existsSync(file)) {
   const giocata = JSON.parse(fs.readFileSync(file, 'utf8'));
   if (giocata.niente) {
@@ -63,6 +72,7 @@ if (fs.existsSync(file)) {
     console.log(`  Quota: ${giocata.quota}`);
     console.log(`  Puntata: ${giocata.puntata} e`);
     console.log(`  Vincita: ${giocata.vincitaAttesa} e`);
+    console.log(`  Bankroll: ${bankroll} e`);
     console.log('#'.repeat(70));
 
     // Notifica Telegram
@@ -75,7 +85,7 @@ if (fs.existsSync(file)) {
           ora: g.ora || '20:45',
           quota: g.quota
         }));
-        messaggio = tripla(partite, giocata.puntata);
+        messaggio = tripla(partite, giocata.puntata, bankroll);
       } else if (giocata.tipo === 'MULTIPLA') {
         const partite = giocata.gambe.map(g => ({
           squadra1: g.partita.split(' - ')[0] || g.partita,
@@ -83,10 +93,10 @@ if (fs.existsSync(file)) {
           ora: g.ora || '20:45',
           quota: g.quota
         }));
-        messaggio = multipla(partite, giocata.puntata);
+        messaggio = multipla(partite, giocata.puntata, bankroll);
       } else {
         const g = giocata.gambe[0];
-        messaggio = singola(g.partita, g.quota, g.esito || g.dice, giocata.puntata);
+        messaggio = singola(g.partita, g.quota, g.esito || g.dice, giocata.puntata, bankroll);
       }
       await inviaFoto(messaggio.foto, messaggio.testo, messaggio.bottoni);
       console.log('[TELEGRAM] Notifica inviata!');

@@ -80,10 +80,11 @@ export async function inviaTesto(testo) {
 
 // ─── FORMATO SINGOLA ────────────────────────────────────
 
-export function singola(partita, quota, esito, puntata) {
+export function singola(partita, quota, esito, puntata, bankroll) {
   const data = getData();
   const vincita = (puntata * quota).toFixed(2);
   const ore = getOra();
+  const rimanente = bankroll ? (bankroll - puntata).toFixed(2) : '?';
 
   const testo = `${data}
 
@@ -95,7 +96,9 @@ Esito: ${esito}
 
 Puntata: EUR ${puntata}
 Vincita: EUR ${vincita}
+Rimanente: EUR ${rimanente}
 
+Nota: verifica quota su 888Sport
 Analisi: John + Sistema AI`;
 
   const bottoni = {
@@ -109,10 +112,11 @@ Analisi: John + Sistema AI`;
 
 // ─── FORMATO TRIPLA ────────────────────────────────────
 
-export function tripla(partite, puntata) {
+export function tripla(partite, puntata, bankroll) {
   const data = getData();
   const quotaTotale = partite.reduce((acc, p) => acc * p.quota, 1).toFixed(2);
   const vincita = (puntata * parseFloat(quotaTotale)).toFixed(2);
+  const rimanente = bankroll ? (bankroll - puntata).toFixed(2) : '?';
 
   let elenco = '';
   for (let i = 0; i < partite.length; i++) {
@@ -128,7 +132,9 @@ TRIPLA CONSIGLIATA
 ${elenco}Quota totale: ${quotaTotale}
 Puntata: EUR ${puntata}
 Vincita: EUR ${vincita}
+Rimanente: EUR ${rimanente}
 
+Nota: verifica quote su 888Sport
 Analisi: John + Sistema AI`;
 
   const bottoni = {
@@ -142,10 +148,11 @@ Analisi: John + Sistema AI`;
 
 // ─── FORMATO MULTIPLA ────────────────────────────────────
 
-export function multipla(partite, puntata) {
+export function multipla(partite, puntata, bankroll) {
   const data = getData();
   const quotaTotale = partite.reduce((acc, p) => acc * p.quota, 1).toFixed(2);
   const vincita = (puntata * parseFloat(quotaTotale)).toFixed(2);
+  const rimanente = bankroll ? (bankroll - puntata).toFixed(2) : '?';
 
   let elenco = '';
   for (let i = 0; i < partite.length; i++) {
@@ -161,7 +168,9 @@ MULTIPLA CONSIGLIATA
 ${elenco}Quota totale: ${quotaTotale}
 Puntata: EUR ${puntata}
 Vincita: EUR ${vincita}
+Rimanente: EUR ${rimanente}
 
+Nota: verifica quote su 888Sport
 Analisi: John + Sistema AI`;
 
   const bottoni = {
