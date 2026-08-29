@@ -127,7 +127,7 @@ export function calcolaELO(partite, kFactor = 20) {
 
   for (const p of partite) {
     const casa = p.HomeTeam || p.home_team || p.casa;
-    const trasf = p.awayTeam || p.away_team || p.trasf;
+    const trasf = p.AwayTeam || p.away_team || p.trasf;
     if (!casa || !trasf) continue;
 
     if (elo[casa] === undefined) elo[casa] = BASE;

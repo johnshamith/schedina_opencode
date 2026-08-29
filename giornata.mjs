@@ -1,6 +1,6 @@
 // giornata.mjs — ORCHESTRATORE COMPLETO MULTI-SPORT
 // Esegue tutto il pipeline in sequenza per TUTTI gli sport:
-//   1. Scarica dati storici + quote (calcio, basket, tennis)
+//   1. Scarica dati storici + quote (calcio, basket)
 //   2. Calcola probabilita (modelli sport-specifici)
 //   3. Confronta con quote bookmaker
 //   4. Trova scommesse con valore
@@ -16,7 +16,7 @@ import { DATI, log } from './lib.mjs';
 import { inviaFoto, tripla, multipla, singola } from './notifica.mjs';
 
 const PASSI = [
-  { nome: 'Scarico dati storici (calcio + basket + tennis)', file: 'scarica.mjs' },
+  { nome: 'Scarico dati storici (calcio + basket)', file: 'scarica.mjs' },
   { nome: 'Scarico quote live (The Odds API)', file: 'quotazione.mjs' },
   { nome: 'Analizzo partite (modelli multi-sport)', file: 'analisi.mjs' },
   { nome: 'Cerco valore (multi-sport)', file: 'ricerca.mjs' },
@@ -26,7 +26,7 @@ const PASSI = [
 
 console.log('\n' + '#'.repeat(70));
 console.log('  SISTEMA SCHEDINA MULTI-SPORT — ' + new Date().toISOString().slice(0, 16));
-console.log('  Sport: Calcio + Basket (WNBA/NBA) + Tennis');
+console.log('  Sport: Calcio + Basket');
 console.log('#'.repeat(70));
 
 for (const passo of PASSI) {

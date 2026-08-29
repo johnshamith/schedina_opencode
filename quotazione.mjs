@@ -44,8 +44,10 @@ async function scaricaOddsAPI() {
   const listaSport = await rs.json();
   const vivi = new Set(listaSport.filter(s => s.active).map(s => s.key));
 
-  // Tennis: prendo tutti i tornei ATP/WTA
-  const tennisVivi = listaSport.filter(s => s.active && s.group === 'Tennis').map(s => s.key);
+  // Tennis: solo se abilitato nel config
+  const tennisVivi = (SPORT.tennis && SPORT.tennis.length > 0)
+    ? listaSport.filter(s => s.active && s.group === 'Tennis').map(s => s.key)
+    : [];
 
   // Tutti gli sport da chiedere
   const daChiedere = [

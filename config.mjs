@@ -95,10 +95,11 @@ export const SPORT = {
     'basketball_nba',
     'basketball_euroleague',
   ],
-  tennis: [
-    'tennis_atp',
-    'tennis_wta',
-  ],
+  // tennis: disattivato - dati ranking/forma mancanti, probabilità fake
+  // tennis: [
+  //   'tennis_atp',
+  //   'tennis_wta',
+  // ],
 };
 
 // ── CONFIGURAZIONE SPORT SPECIFICA ───────────────────────────

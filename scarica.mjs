@@ -6,7 +6,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { DATI, log } from './lib.mjs';
-import { LEGHE, STAGIONI, FONDI } from './config.mjs';
+import { LEGHE, STAGIONI, FONDI, SPORT } from './config.mjs';
 
 fs.mkdirSync(DATI, { recursive: true });
 
@@ -161,7 +161,11 @@ async function main() {
   log('=== SCARICO DATI MULTI-SPORT ===');
   await scaricaCalcio();
   await scaricaBasket();
-  await scaricaTennis();
+  if (SPORT.tennis && SPORT.tennis.length > 0) {
+    await scaricaTennis();
+  } else {
+    log('Tennis: disattivato nel config');
+  }
   log('=== DATI SCARICATI ===');
 }
 

@@ -254,9 +254,8 @@ export function trovaValore(partite) {
       scommesse.push(...trovaValoreCalcio(p));
     } else if (sport === 'basket') {
       scommesse.push(...trovaValoreBasket(p));
-    } else if (sport === 'tennis') {
-      scommesse.push(...trovaValoreTennis(p));
     }
+    // tennis disattivato - dati ranking mancanti
   }
 
   // Ordina per edge (piu valore prima)
