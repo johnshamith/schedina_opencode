@@ -1,10 +1,3794 @@
 {
- "quando": "2026-08-29T17:26:58.867Z",
- "nPartite": 0,
+ "quando": "2026-08-29T17:38:57.581Z",
+ "nPartite": 125,
  "perSport": {
-  "calcio": 0,
-  "basket": 0,
+  "calcio": 92,
+  "basket": 33,
   "tennis": 0
  },
- "eventi": []
+ "eventi": [
+  {
+   "casa": "Fiorentina",
+   "trasf": "Frosinone",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-08-29T16:30:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Fiorentina",
+    "Frosinone",
+    "Draw"
+   ],
+   "mediana": [
+    8.6,
+    1.32,
+    4.87
+   ],
+   "migliorQuota": [
+    10,
+    1.43,
+    5.1
+   ],
+   "probMercato": [
+    0.09485985399219704,
+    0.7235896600185737,
+    0.1815504859892293
+   ],
+   "margine": 0.07919363637810695,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Monza",
+   "trasf": "Udinese",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-08-29T16:30:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Monza",
+    "Udinese",
+    "Draw"
+   ],
+   "mediana": [
+    25,
+    1.08,
+    9
+   ],
+   "migliorQuota": [
+    32.5,
+    1.16,
+    10
+   ],
+   "probMercato": [
+    0.022162142346871302,
+    0.8896696190856016,
+    0.08816823856752709
+   ],
+   "margine": 0.07703703703703701,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Sassuolo",
+   "trasf": "Torino",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-08-29T16:30:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Sassuolo",
+    "Torino",
+    "Draw"
+   ],
+   "mediana": [
+    2.55,
+    3.5,
+    2.5
+   ],
+   "migliorQuota": [
+    2.78,
+    3.75,
+    2.64
+   ],
+   "probMercato": [
+    0.365563343747543,
+    0.26117756491178207,
+    0.373259091340675
+   ],
+   "margine": 0.07787114845938392,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Juventus",
+   "trasf": "Parma",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-08-29T18:45:00Z",
+   "nSiti": 24,
+   "nomi": [
+    "Juventus",
+    "Parma",
+    "Draw"
+   ],
+   "mediana": [
+    1.225,
+    14,
+    6.324999999999999
+   ],
+   "migliorQuota": [
+    1.26,
+    16,
+    6.6
+   ],
+   "probMercato": [
+    0.7957912557637762,
+    0.0594994159771378,
+    0.144709328259086
+   ],
+   "margine": 0.04585786883923526,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Napoli",
+   "trasf": "Como",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-08-30T16:30:00Z",
+   "nSiti": 24,
+   "nomi": [
+    "Como",
+    "Napoli",
+    "Draw"
+   ],
+   "mediana": [
+    3.05,
+    2.52,
+    3.04
+   ],
+   "migliorQuota": [
+    3.21,
+    2.64,
+    3.16
+   ],
+   "probMercato": [
+    0.31029627862210757,
+    0.3783433160909574,
+    0.31136040528693504
+   ],
+   "margine": 0.05364161770546594,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Cagliari",
+   "trasf": "Inter Milan",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-08-30T18:45:00Z",
+   "nSiti": 24,
+   "nomi": [
+    "Cagliari",
+    "Inter Milan",
+    "Draw"
+   ],
+   "mediana": [
+    7.65,
+    1.43,
+    4.55
+   ],
+   "migliorQuota": [
+    9.2,
+    1.46,
+    4.75
+   ],
+   "probMercato": [
+    0.11688319191135993,
+    0.6784514916454407,
+    0.2046653164431994
+   ],
+   "margine": 0.04979987332928504,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Lazio",
+   "trasf": "Genoa",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-08-30T18:45:00Z",
+   "nSiti": 24,
+   "nomi": [
+    "Genoa",
+    "Lazio",
+    "Draw"
+   ],
+   "mediana": [
+    4.2,
+    2.05,
+    3.1
+   ],
+   "migliorQuota": [
+    4.5,
+    2.2,
+    3.19
+   ],
+   "probMercato": [
+    0.22327931531773795,
+    0.4699972958754961,
+    0.306723388806766
+   ],
+   "margine": 0.04848076130530887,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Lecce",
+   "trasf": "AS Roma",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-08-31T16:30:00Z",
+   "nSiti": 24,
+   "nomi": [
+    "AS Roma",
+    "Lecce",
+    "Draw"
+   ],
+   "mediana": [
+    1.47,
+    7.5,
+    4.275
+   ],
+   "migliorQuota": [
+    1.65,
+    8.8,
+    4.43
+   ],
+   "probMercato": [
+    0.6605803742129068,
+    0.12009184630969848,
+    0.2193277794773948
+   ],
+   "margine": 0.04752357083184133,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Atalanta BC",
+   "trasf": "Bologna",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-08-31T18:45:00Z",
+   "nSiti": 24,
+   "nomi": [
+    "Atalanta BC",
+    "Bologna",
+    "Draw"
+   ],
+   "mediana": [
+    1.9,
+    4.07,
+    3.6
+   ],
+   "migliorQuota": [
+    1.99,
+    4.29,
+    3.75
+   ],
+   "probMercato": [
+    0.5075682780472521,
+    0.23038230218953026,
+    0.26204941976321766
+   ],
+   "margine": 0.04979381295170748,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Genoa",
+   "trasf": "Como",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-09-04T18:45:00Z",
+   "nSiti": 16,
+   "nomi": [
+    "Como",
+    "Genoa",
+    "Draw"
+   ],
+   "mediana": [
+    1.78,
+    4.75,
+    3.335
+   ],
+   "migliorQuota": [
+    1.87,
+    5.7,
+    3.4
+   ],
+   "probMercato": [
+    0.5341573357300774,
+    0.18911011691418472,
+    0.27673254735573793
+   ],
+   "margine": 0.07217414356098129,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Fiorentina",
+   "trasf": "Torino",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-09-05T13:00:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Fiorentina",
+    "Torino",
+    "Draw"
+   ],
+   "mediana": [
+    1.85,
+    4.3,
+    3.3
+   ],
+   "migliorQuota": [
+    1.93,
+    5.06,
+    3.4
+   ],
+   "probMercato": [
+    0.511808273791358,
+    0.20955979891813753,
+    0.27863192729050457
+   ],
+   "margine": 0.07612898310572724,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Inter Milan",
+   "trasf": "Napoli",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-09-05T16:00:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Inter Milan",
+    "Napoli",
+    "Draw"
+   ],
+   "mediana": [
+    1.71,
+    4.95,
+    3.6
+   ],
+   "migliorQuota": [
+    1.82,
+    5.2,
+    3.75
+   ],
+   "probMercato": [
+    0.5596534089843458,
+    0.1829455646781171,
+    0.2574010263375372
+   ],
+   "margine": 0.06459330143540676,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "AS Roma",
+   "trasf": "Atalanta BC",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-09-05T18:45:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "AS Roma",
+    "Atalanta BC",
+    "Draw"
+   ],
+   "mediana": [
+    1.87,
+    3.9,
+    3.5
+   ],
+   "migliorQuota": [
+    1.97,
+    4.3,
+    3.62
+   ],
+   "probMercato": [
+    0.5058599596584948,
+    0.23271073514113227,
+    0.261429305200373
+   ],
+   "margine": 0.07688390041331195,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Frosinone",
+   "trasf": "Venezia",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-09-06T13:00:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Frosinone",
+    "Venezia",
+    "Draw"
+   ],
+   "mediana": [
+    2.75,
+    2.55,
+    3.25
+   ],
+   "migliorQuota": [
+    2.91,
+    2.63,
+    3.44
+   ],
+   "probMercato": [
+    0.34232804469419587,
+    0.37040677301394054,
+    0.28726518229186365
+   ],
+   "margine": 0.06348553407376945,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Parma",
+   "trasf": "Monza",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-09-06T13:00:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Monza",
+    "Parma",
+    "Draw"
+   ],
+   "mediana": [
+    3.55,
+    2.05,
+    3.15
+   ],
+   "migliorQuota": [
+    3.95,
+    2.32,
+    3.4
+   ],
+   "probMercato": [
+    0.25442122483891116,
+    0.4561800657102075,
+    0.2893987094508814
+   ],
+   "margine": 0.08695533635416841,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Bologna",
+   "trasf": "Sassuolo",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-09-06T16:00:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Bologna",
+    "Sassuolo",
+    "Draw"
+   ],
+   "mediana": [
+    1.9,
+    4,
+    3.45
+   ],
+   "migliorQuota": [
+    2.02,
+    4.2,
+    3.56
+   ],
+   "probMercato": [
+    0.5015080258262133,
+    0.22965902307936217,
+    0.26883295109442457
+   ],
+   "margine": 0.06617086193745236,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Juventus",
+   "trasf": "AC Milan",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-09-06T18:45:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "AC Milan",
+    "Juventus",
+    "Draw"
+   ],
+   "mediana": [
+    3.6,
+    2.06,
+    3.3
+   ],
+   "migliorQuota": [
+    3.79,
+    2.2,
+    3.52
+   ],
+   "probMercato": [
+    0.2569580652245664,
+    0.46125678981387014,
+    0.2817851449615635
+   ],
+   "margine": 0.06624497401196439,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Cagliari",
+   "trasf": "Lecce",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-09-07T16:30:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Cagliari",
+    "Lecce",
+    "Draw"
+   ],
+   "mediana": [
+    2.22,
+    3.55,
+    3
+   ],
+   "migliorQuota": [
+    2.29,
+    4,
+    3.19
+   ],
+   "probMercato": [
+    0.42710070955837903,
+    0.2610535686524326,
+    0.31184572178918846
+   ],
+   "margine": 0.06547392462885404,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Udinese",
+   "trasf": "Lazio",
+   "sport": "calcio",
+   "campionato": "Serie A - Italy",
+   "inizio": "2026-09-07T18:45:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Lazio",
+    "Udinese",
+    "Draw"
+   ],
+   "mediana": [
+    2.7,
+    2.68,
+    3.05
+   ],
+   "migliorQuota": [
+    2.87,
+    2.9,
+    3.15
+   ],
+   "probMercato": [
+    0.34634594464001633,
+    0.34906174486744235,
+    0.30459231049254143
+   ],
+   "margine": 0.0713735511875957,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Tottenham Hotspur",
+   "trasf": "Newcastle United",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-08-29T16:30:00Z",
+   "nSiti": 16,
+   "nomi": [
+    "Newcastle United",
+    "Tottenham Hotspur",
+    "Draw"
+   ],
+   "mediana": [
+    3.63,
+    2.325,
+    2.675
+   ],
+   "migliorQuota": [
+    4.1,
+    2.46,
+    2.82
+   ],
+   "probMercato": [
+    0.25066980338901573,
+    0.4022651407721907,
+    0.34706505583879343
+   ],
+   "margine": 0.07942139624656686,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Leeds United",
+   "trasf": "Brentford",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-08-30T13:00:00Z",
+   "nSiti": 25,
+   "nomi": [
+    "Brentford",
+    "Leeds United",
+    "Draw"
+   ],
+   "mediana": [
+    2.75,
+    2.58,
+    3.4
+   ],
+   "migliorQuota": [
+    2.84,
+    2.72,
+    3.55
+   ],
+   "probMercato": [
+    0.3483468328508665,
+    0.37204070422343527,
+    0.2796124629256982
+   ],
+   "margine": 0.045350909919993354,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Chelsea",
+   "trasf": "Brighton and Hove Albion",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-08-30T13:00:00Z",
+   "nSiti": 25,
+   "nomi": [
+    "Brighton and Hove Albion",
+    "Chelsea",
+    "Draw"
+   ],
+   "mediana": [
+    4.1,
+    1.82,
+    3.9
+   ],
+   "migliorQuota": [
+    4.4,
+    1.89,
+    4.09
+   ],
+   "probMercato": [
+    0.22860916764998596,
+    0.5304350533167503,
+    0.24095577903326382
+   ],
+   "margine": 0.04976324488519612,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Sunderland",
+   "trasf": "Fulham",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-08-30T13:00:00Z",
+   "nSiti": 25,
+   "nomi": [
+    "Fulham",
+    "Sunderland",
+    "Draw"
+   ],
+   "mediana": [
+    3,
+    2.45,
+    3.3
+   ],
+   "migliorQuota": [
+    3.2,
+    2.54,
+    3.4
+   ],
+   "probMercato": [
+    0.3186518153416874,
+    0.39266263723905975,
+    0.2886855474192529
+   ],
+   "margine": 0.0445269016697587,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Manchester United",
+   "trasf": "Ipswich Town",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-08-30T15:30:00Z",
+   "nSiti": 25,
+   "nomi": [
+    "Ipswich Town",
+    "Manchester United",
+    "Draw"
+   ],
+   "mediana": [
+    7.27,
+    1.41,
+    5.1
+   ],
+   "migliorQuota": [
+    8.5,
+    1.44,
+    5.3
+   ],
+   "probMercato": [
+    0.12552180782644026,
+    0.6911458961367831,
+    0.18333229603677667
+   ],
+   "margine": 0.042849871371768655,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Aston Villa",
+   "trasf": "Arsenal",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-08-31T19:00:00Z",
+   "nSiti": 25,
+   "nomi": [
+    "Arsenal",
+    "Aston Villa",
+    "Draw"
+   ],
+   "mediana": [
+    1.52,
+    6.42,
+    4.3
+   ],
+   "migliorQuota": [
+    1.58,
+    7,
+    4.48
+   ],
+   "probMercato": [
+    0.6389943477303389,
+    0.14259295775412192,
+    0.21841269451553924
+   ],
+   "margine": 0.046216116252378425,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Ipswich Town",
+   "trasf": "Liverpool",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-09-04T19:00:00Z",
+   "nSiti": 20,
+   "nomi": [
+    "Ipswich Town",
+    "Liverpool",
+    "Draw"
+   ],
+   "mediana": [
+    5.035,
+    1.61,
+    4.1
+   ],
+   "migliorQuota": [
+    5.5,
+    1.68,
+    4.51
+   ],
+   "probMercato": [
+    0.17984870606311631,
+    0.5957925435189937,
+    0.22435875041789002
+   ],
+   "margine": 0.06363018332361237,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Newcastle United",
+   "trasf": "Bournemouth",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-09-05T11:30:00Z",
+   "nSiti": 18,
+   "nomi": [
+    "Bournemouth",
+    "Newcastle United",
+    "Draw"
+   ],
+   "mediana": [
+    2.85,
+    2.3,
+    3.575
+   ],
+   "migliorQuota": [
+    3,
+    2.41,
+    3.8
+   ],
+   "probMercato": [
+    0.3291387760823055,
+    0.4117130109496141,
+    0.2591482129680804
+   ],
+   "margine": 0.06538008139838802,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Brentford",
+   "trasf": "Sunderland",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-09-05T14:00:00Z",
+   "nSiti": 19,
+   "nomi": [
+    "Brentford",
+    "Sunderland",
+    "Draw"
+   ],
+   "mediana": [
+    1.63,
+    5.2,
+    3.85
+   ],
+   "migliorQuota": [
+    1.74,
+    5.5,
+    4
+   ],
+   "probMercato": [
+    0.5875396706085504,
+    0.1731127666578061,
+    0.23934756273364358
+   ],
+   "margine": 0.06554488456328933,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Brighton and Hove Albion",
+   "trasf": "Leeds United",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-09-05T14:00:00Z",
+   "nSiti": 19,
+   "nomi": [
+    "Brighton and Hove Albion",
+    "Leeds United",
+    "Draw"
+   ],
+   "mediana": [
+    1.8,
+    4.35,
+    3.65
+   ],
+   "migliorQuota": [
+    1.9,
+    4.7,
+    3.8
+   ],
+   "probMercato": [
+    0.5328215842579266,
+    0.21188723183394376,
+    0.25529118390812977
+   ],
+   "margine": 0.059413215766546124,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Manchester City",
+   "trasf": "Coventry City",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-09-05T14:00:00Z",
+   "nSiti": 19,
+   "nomi": [
+    "Coventry City",
+    "Manchester City",
+    "Draw"
+   ],
+   "mediana": [
+    13,
+    1.2,
+    7
+   ],
+   "migliorQuota": [
+    14,
+    1.24,
+    8.2
+   ],
+   "probMercato": [
+    0.06302746007834487,
+    0.8093945801305922,
+    0.1275779597910631
+   ],
+   "margine": 0.05311355311355315,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Fulham",
+   "trasf": "Crystal Palace",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-09-05T14:00:00Z",
+   "nSiti": 19,
+   "nomi": [
+    "Crystal Palace",
+    "Fulham",
+    "Draw"
+   ],
+   "mediana": [
+    3.04,
+    2.28,
+    3.35
+   ],
+   "migliorQuota": [
+    3.3,
+    2.36,
+    3.53
+   ],
+   "probMercato": [
+    0.30735003703996605,
+    0.4152356174797219,
+    0.2774143454803122
+   ],
+   "margine": 0.06605132233569,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Nottingham Forest",
+   "trasf": "Tottenham Hotspur",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-09-05T14:00:00Z",
+   "nSiti": 18,
+   "nomi": [
+    "Nottingham Forest",
+    "Tottenham Hotspur",
+    "Draw"
+   ],
+   "mediana": [
+    2.72,
+    2.5,
+    3.255
+   ],
+   "migliorQuota": [
+    2.85,
+    2.75,
+    3.5
+   ],
+   "probMercato": [
+    0.3425134797946348,
+    0.37427842160957653,
+    0.2832080985957887
+   ],
+   "margine": 0.07486672088190116,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Hull City",
+   "trasf": "Aston Villa",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-09-05T16:30:00Z",
+   "nSiti": 18,
+   "nomi": [
+    "Aston Villa",
+    "Hull City",
+    "Draw"
+   ],
+   "mediana": [
+    1.85,
+    4.025,
+    3.65
+   ],
+   "migliorQuota": [
+    1.94,
+    4.35,
+    3.84
+   ],
+   "probMercato": [
+    0.5167013074316855,
+    0.2290951643116579,
+    0.25420352825665665
+   ],
+   "margine": 0.06296034824921048,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Everton",
+   "trasf": "Manchester United",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-09-06T13:00:00Z",
+   "nSiti": 18,
+   "nomi": [
+    "Everton",
+    "Manchester United",
+    "Draw"
+   ],
+   "mediana": [
+    2.9800000000000004,
+    2.25,
+    3.425
+   ],
+   "migliorQuota": [
+    3.19,
+    2.38,
+    3.65
+   ],
+   "probMercato": [
+    0.3119461020738029,
+    0.4189192754190828,
+    0.2691346225071144
+   ],
+   "margine": 0.07198571716281021,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Arsenal",
+   "trasf": "Chelsea",
+   "sport": "calcio",
+   "campionato": "EPL",
+   "inizio": "2026-09-06T15:30:00Z",
+   "nSiti": 18,
+   "nomi": [
+    "Arsenal",
+    "Chelsea",
+    "Draw"
+   ],
+   "mediana": [
+    1.63,
+    5.2,
+    3.8
+   ],
+   "migliorQuota": [
+    1.74,
+    5.58,
+    4
+   ],
+   "probMercato": [
+    0.5862107980334536,
+    0.17213340285151774,
+    0.2416557991150288
+   ],
+   "margine": 0.06896251955987176,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Real Sociedad",
+   "trasf": "Espanyol",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-08-29T17:00:00Z",
+   "nSiti": 14,
+   "nomi": [
+    "Espanyol",
+    "Real Sociedad",
+    "Draw"
+   ],
+   "mediana": [
+    10.79,
+    1.3,
+    4.625
+   ],
+   "migliorQuota": [
+    14.5,
+    1.35,
+    5.4
+   ],
+   "probMercato": [
+    0.07223821840468811,
+    0.7354307002389379,
+    0.1923310813563741
+   ],
+   "margine": 0.07812539137840346,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Sevilla",
+   "trasf": "Atlético Madrid",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-08-29T19:30:00Z",
+   "nSiti": 20,
+   "nomi": [
+    "Atlético Madrid",
+    "Sevilla",
+    "Draw"
+   ],
+   "mediana": [
+    1.91,
+    4.275,
+    3.5
+   ],
+   "migliorQuota": [
+    1.99,
+    4.5,
+    3.6
+   ],
+   "probMercato": [
+    0.5072980458644748,
+    0.2207394855427251,
+    0.2719624685928001
+   ],
+   "margine": 0.04319262379334021,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Real Madrid",
+   "trasf": "Málaga",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-08-30T15:00:00Z",
+   "nSiti": 21,
+   "nomi": [
+    "Málaga",
+    "Real Madrid",
+    "Draw"
+   ],
+   "mediana": [
+    21,
+    1.12,
+    10
+   ],
+   "migliorQuota": [
+    30,
+    1.14,
+    11.5
+   ],
+   "probMercato": [
+    0.037397932378429886,
+    0.8739522911860118,
+    0.08864977643555827
+   ],
+   "margine": 0.040476190476190554,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Deportivo La Coruña",
+   "trasf": "Valencia",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-08-30T17:30:00Z",
+   "nSiti": 21,
+   "nomi": [
+    "Deportivo La Coruña",
+    "Valencia",
+    "Draw"
+   ],
+   "mediana": [
+    2.55,
+    3.05,
+    3.05
+   ],
+   "migliorQuota": [
+    2.65,
+    3.25,
+    3.15
+   ],
+   "probMercato": [
+    0.3756863595434734,
+    0.3121568202282633,
+    0.3121568202282633
+   ],
+   "margine": 0.04789456766313105,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Celta Vigo",
+   "trasf": "Athletic Bilbao",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-08-30T19:30:00Z",
+   "nSiti": 21,
+   "nomi": [
+    "Athletic Bilbao",
+    "Celta Vigo",
+    "Draw"
+   ],
+   "mediana": [
+    3.05,
+    2.4,
+    3.22
+   ],
+   "migliorQuota": [
+    3.2,
+    2.54,
+    3.4
+   ],
+   "probMercato": [
+    0.30982430118241705,
+    0.39742312643801586,
+    0.29275257237956714
+   ],
+   "margine": 0.0550945253368631,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "CA Osasuna",
+   "trasf": "Getafe",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-08-31T17:30:00Z",
+   "nSiti": 21,
+   "nomi": [
+    "CA Osasuna",
+    "Getafe",
+    "Draw"
+   ],
+   "mediana": [
+    2.18,
+    3.8,
+    3
+   ],
+   "migliorQuota": [
+    2.25,
+    4.2,
+    3.15
+   ],
+   "probMercato": [
+    0.43886440352523914,
+    0.24596890419180925,
+    0.3151666922829517
+   ],
+   "margine": 0.05520682440045066,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Barcelona",
+   "trasf": "Rayo Vallecano",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-08-31T19:30:00Z",
+   "nSiti": 21,
+   "nomi": [
+    "Barcelona",
+    "Rayo Vallecano",
+    "Draw"
+   ],
+   "mediana": [
+    1.17,
+    16,
+    8.11
+   ],
+   "migliorQuota": [
+    1.19,
+    19.5,
+    9.6
+   ],
+   "probMercato": [
+    0.8361611717360221,
+    0.05202436184087236,
+    0.11181446642310555
+   ],
+   "margine": 0.040505416969658814,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Real Betis",
+   "trasf": "Real Madrid",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-09-04T19:00:00Z",
+   "nSiti": 8,
+   "nomi": [
+    "Real Betis",
+    "Real Madrid",
+    "Draw"
+   ],
+   "mediana": [
+    4.425000000000001,
+    1.645,
+    4.165
+   ],
+   "migliorQuota": [
+    5.2,
+    1.81,
+    4.7
+   ],
+   "probMercato": [
+    0.2036998626554654,
+    0.5787754338450222,
+    0.2175247034995125
+   ],
+   "margine": 0.07398747454264787,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Rayo Vallecano",
+   "trasf": "Real Racing Club de Santander",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-09-05T16:30:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Rayo Vallecano",
+    "Real Racing Club de Santander",
+    "Draw"
+   ],
+   "mediana": [
+    1.82,
+    4.3,
+    3.4
+   ],
+   "migliorQuota": [
+    2.02,
+    4.64,
+    3.65
+   ],
+   "probMercato": [
+    0.5205581069032751,
+    0.20955514359915692,
+    0.2698867494975681
+   ],
+   "margine": 0.07612633604425656,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Valencia",
+   "trasf": "Barcelona",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-09-06T14:15:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Barcelona",
+    "Valencia",
+    "Draw"
+   ],
+   "mediana": [
+    1.56,
+    4.9,
+    4.23
+   ],
+   "migliorQuota": [
+    1.64,
+    5.88,
+    4.4
+   ],
+   "probMercato": [
+    0.6083561909228771,
+    0.18002763160289126,
+    0.21161617747423173
+   ],
+   "margine": 0.08151389306404488,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Alavés",
+   "trasf": "CA Osasuna",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-09-06T16:30:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Alavés",
+    "CA Osasuna",
+    "Draw"
+   ],
+   "mediana": [
+    2.2,
+    3.15,
+    3.2
+   ],
+   "migliorQuota": [
+    2.34,
+    3.4,
+    3.4
+   ],
+   "probMercato": [
+    0.4244696818028746,
+    0.2901925833952398,
+    0.2853377348018857
+   ],
+   "margine": 0.08450577200577203,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Espanyol",
+   "trasf": "Sevilla",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-09-06T19:00:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Espanyol",
+    "Sevilla",
+    "Draw"
+   ],
+   "mediana": [
+    2.2,
+    3.17,
+    3.2
+   ],
+   "migliorQuota": [
+    2.38,
+    3.41,
+    3.31
+   ],
+   "probMercato": [
+    0.425167982157664,
+    0.2888640149044899,
+    0.2859680029378463
+   ],
+   "margine": 0.08250286779466576,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Getafe",
+   "trasf": "Celta Vigo",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-09-07T17:00:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Celta Vigo",
+    "Getafe",
+    "Draw"
+   ],
+   "mediana": [
+    2.88,
+    2.45,
+    3
+   ],
+   "migliorQuota": [
+    3.2,
+    2.63,
+    3.1
+   ],
+   "probMercato": [
+    0.3179851803621743,
+    0.3776132921138953,
+    0.30440152752393046
+   ],
+   "margine": 0.08871882086167782,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Elche CF",
+   "trasf": "Real Sociedad",
+   "sport": "calcio",
+   "campionato": "La Liga - Spain",
+   "inizio": "2026-09-07T19:30:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Elche CF",
+    "Real Sociedad",
+    "Draw"
+   ],
+   "mediana": [
+    2.95,
+    2.35,
+    3.15
+   ],
+   "migliorQuota": [
+    3.19,
+    2.5,
+    3.29
+   ],
+   "probMercato": [
+    0.3120852436013376,
+    0.39691230794221205,
+    0.2910024484564503
+   ],
+   "margine": 0.08197528320139202,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Auxerre",
+   "trasf": "Angers",
+   "sport": "calcio",
+   "campionato": "Ligue 1 - France",
+   "inizio": "2026-08-29T18:45:00Z",
+   "nSiti": 23,
+   "nomi": [
+    "Angers",
+    "Auxerre",
+    "Draw"
+   ],
+   "mediana": [
+    3.72,
+    2.06,
+    3.4
+   ],
+   "migliorQuota": [
+    3.9,
+    2.14,
+    3.54
+   ],
+   "probMercato": [
+    0.25365506713710906,
+    0.46769996209107895,
+    0.27864497077181205
+   ],
+   "margine": 0.04837174456378235,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Brest",
+   "trasf": "Toulouse",
+   "sport": "calcio",
+   "campionato": "Ligue 1 - France",
+   "inizio": "2026-08-29T18:45:00Z",
+   "nSiti": 23,
+   "nomi": [
+    "Brest",
+    "Toulouse",
+    "Draw"
+   ],
+   "mediana": [
+    2.65,
+    2.7,
+    3.35
+   ],
+   "migliorQuota": [
+    2.77,
+    2.85,
+    3.5
+   ],
+   "probMercato": [
+    0.36161847087319715,
+    0.35470965445564967,
+    0.2836718746711532
+   ],
+   "margine": 0.04623632362297525,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Lyon",
+   "trasf": "Le Havre",
+   "sport": "calcio",
+   "campionato": "Ligue 1 - France",
+   "inizio": "2026-08-29T18:45:00Z",
+   "nSiti": 23,
+   "nomi": [
+    "Le Havre",
+    "Lyon",
+    "Draw"
+   ],
+   "mediana": [
+    6.8,
+    1.46,
+    4.6
+   ],
+   "migliorQuota": [
+    7.6,
+    1.51,
+    4.9
+   ],
+   "probMercato": [
+    0.13310856718645261,
+    0.6644315687203974,
+    0.20245986409315006
+   ],
+   "margine": 0.04938163472655299,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Lorient",
+   "trasf": "Troyes",
+   "sport": "calcio",
+   "campionato": "Ligue 1 - France",
+   "inizio": "2026-08-29T18:45:00Z",
+   "nSiti": 23,
+   "nomi": [
+    "Lorient",
+    "Troyes",
+    "Draw"
+   ],
+   "mediana": [
+    1.89,
+    4.25,
+    3.5
+   ],
+   "migliorQuota": [
+    1.95,
+    4.6,
+    3.67
+   ],
+   "probMercato": [
+    0.5102010947094776,
+    0.220014438095727,
+    0.2697844671947955
+   ],
+   "margine": 0.050108932461873756,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Paris FC",
+   "trasf": "Nice",
+   "sport": "calcio",
+   "campionato": "Ligue 1 - France",
+   "inizio": "2026-08-30T13:00:00Z",
+   "nSiti": 23,
+   "nomi": [
+    "Nice",
+    "Paris FC",
+    "Draw"
+   ],
+   "mediana": [
+    3.7,
+    2.1,
+    3.4
+   ],
+   "migliorQuota": [
+    4,
+    2.15,
+    3.5
+   ],
+   "probMercato": [
+    0.25751205927975174,
+    0.4613731825394639,
+    0.28111475818078446
+   ],
+   "margine": 0.040578393519570044,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Rennes",
+   "trasf": "Le Mans FC",
+   "sport": "calcio",
+   "campionato": "Ligue 1 - France",
+   "inizio": "2026-08-30T15:15:00Z",
+   "nSiti": 23,
+   "nomi": [
+    "Le Mans FC",
+    "Rennes",
+    "Draw"
+   ],
+   "mediana": [
+    7,
+    1.43,
+    4.95
+   ],
+   "migliorQuota": [
+    7.6,
+    1.47,
+    5.2
+   ],
+   "probMercato": [
+    0.13039869416384064,
+    0.6807803857176116,
+    0.18882092011854784
+   ],
+   "margine": 0.04417804417804416,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "AS Monaco",
+   "trasf": "Marseille",
+   "sport": "calcio",
+   "campionato": "Ligue 1 - France",
+   "inizio": "2026-08-30T18:45:00Z",
+   "nSiti": 23,
+   "nomi": [
+    "AS Monaco",
+    "Marseille",
+    "Draw"
+   ],
+   "mediana": [
+    2.42,
+    2.75,
+    3.65
+   ],
+   "migliorQuota": [
+    2.55,
+    2.92,
+    3.8
+   ],
+   "probMercato": [
+    0.395489260643522,
+    0.34651785091048665,
+    0.25799288844599133
+   ],
+   "margine": 0.050832106871957494,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Borussia Dortmund",
+   "trasf": "Hamburger SV",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-08-29T16:30:00Z",
+   "nSiti": 3,
+   "nomi": [
+    "Borussia Dortmund",
+    "Hamburger SV",
+    "Draw"
+   ],
+   "mediana": [
+    1.03,
+    2.35,
+    29
+   ],
+   "migliorQuota": [
+    1.04,
+    2.4,
+    35
+   ],
+   "probMercato": [
+    0.7465003390008704,
+    0.25086281258240756,
+    0.0026368484167220096
+   ],
+   "margine": 0.4308884599220737,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "SC Freiburg",
+   "trasf": "Werder Bremen",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-08-30T13:30:00Z",
+   "nSiti": 23,
+   "nomi": [
+    "SC Freiburg",
+    "Werder Bremen",
+    "Draw"
+   ],
+   "mediana": [
+    1.93,
+    3.9,
+    3.63
+   ],
+   "migliorQuota": [
+    2.01,
+    4.16,
+    3.85
+   ],
+   "probMercato": [
+    0.4994004753062923,
+    0.240886084143264,
+    0.2597134405504439
+   ],
+   "margine": 0.05002706510007515,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Augsburg",
+   "trasf": "FC Schalke 04",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-08-30T15:30:00Z",
+   "nSiti": 24,
+   "nomi": [
+    "Augsburg",
+    "FC Schalke 04",
+    "Draw"
+   ],
+   "mediana": [
+    2.15,
+    3.1399999999999997,
+    3.6399999999999997
+   ],
+   "migliorQuota": [
+    2.25,
+    3.35,
+    3.85
+   ],
+   "probMercato": [
+    0.44407556231548173,
+    0.2995129577291737,
+    0.25641147995534463
+   ],
+   "margine": 0.058312891374660225,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "VfB Stuttgart",
+   "trasf": "1. FC Köln",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-09-04T18:30:00Z",
+   "nSiti": 18,
+   "nomi": [
+    "1. FC Köln",
+    "VfB Stuttgart",
+    "Draw"
+   ],
+   "mediana": [
+    5.775,
+    1.435,
+    4.85
+   ],
+   "migliorQuota": [
+    6.8,
+    1.5,
+    5.7
+   ],
+   "probMercato": [
+    0.15122871031671606,
+    0.6652611551560748,
+    0.18351013452720916
+   ],
+   "margine": 0.07620985166874017,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Bayer Leverkusen",
+   "trasf": "Union Berlin",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-09-05T13:30:00Z",
+   "nSiti": 17,
+   "nomi": [
+    "Bayer Leverkusen",
+    "Union Berlin",
+    "Draw"
+   ],
+   "mediana": [
+    1.47,
+    5.8,
+    4.5
+   ],
+   "migliorQuota": [
+    1.53,
+    6.5,
+    4.93
+   ],
+   "probMercato": [
+    0.6494903531472813,
+    0.1508912744099678,
+    0.199618372442751
+   ],
+   "margine": 0.074908124169208,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "TSG Hoffenheim",
+   "trasf": "Borussia Dortmund",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-09-05T13:30:00Z",
+   "nSiti": 17,
+   "nomi": [
+    "Borussia Dortmund",
+    "TSG Hoffenheim",
+    "Draw"
+   ],
+   "mediana": [
+    2.4,
+    2.6,
+    3.7
+   ],
+   "migliorQuota": [
+    2.53,
+    2.7,
+    4.01
+   ],
+   "probMercato": [
+    0.39176605217124666,
+    0.36026833627249216,
+    0.24796561155626126
+   ],
+   "margine": 0.0715523215523215,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Borussia Monchengladbach",
+   "trasf": "Elversberg",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-09-05T13:30:00Z",
+   "nSiti": 17,
+   "nomi": [
+    "Borussia Monchengladbach",
+    "Elversberg",
+    "Draw"
+   ],
+   "mediana": [
+    1.62,
+    4.75,
+    4.15
+   ],
+   "migliorQuota": [
+    1.68,
+    5.53,
+    4.35
+   ],
+   "probMercato": [
+    0.5900147845767838,
+    0.19005817735776398,
+    0.2199270380654522
+   ],
+   "margine": 0.06877412182844433,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Werder Bremen",
+   "trasf": "RB Leipzig",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-09-05T13:30:00Z",
+   "nSiti": 17,
+   "nomi": [
+    "RB Leipzig",
+    "Werder Bremen",
+    "Draw"
+   ],
+   "mediana": [
+    2.02,
+    3.2,
+    3.7
+   ],
+   "migliorQuota": [
+    2.13,
+    3.6,
+    4
+   ],
+   "probMercato": [
+    0.46654612275485613,
+    0.2874219237850685,
+    0.24603195346007548
+   ],
+   "margine": 0.07781977522076522,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "SC Paderborn",
+   "trasf": "SC Freiburg",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-09-05T13:30:00Z",
+   "nSiti": 17,
+   "nomi": [
+    "SC Freiburg",
+    "SC Paderborn",
+    "Draw"
+   ],
+   "mediana": [
+    2.38,
+    2.8,
+    3.45
+   ],
+   "migliorQuota": [
+    2.51,
+    2.92,
+    3.65
+   ],
+   "probMercato": [
+    0.39671792399973693,
+    0.33472073544526537,
+    0.2685613405549977
+   ],
+   "margine": 0.0671659968335161,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "FC Schalke 04",
+   "trasf": "Bayern Munich",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-09-05T16:30:00Z",
+   "nSiti": 17,
+   "nomi": [
+    "Bayern Munich",
+    "FC Schalke 04",
+    "Draw"
+   ],
+   "mediana": [
+    1.29,
+    8.75,
+    5.8
+   ],
+   "migliorQuota": [
+    1.33,
+    10.5,
+    6.8
+   ],
+   "probMercato": [
+    0.7482494301023406,
+    0.09741063306764054,
+    0.15433993683001884
+   ],
+   "margine": 0.06189330583877495,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Hamburger SV",
+   "trasf": "FSV Mainz 05",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-09-06T13:30:00Z",
+   "nSiti": 17,
+   "nomi": [
+    "FSV Mainz 05",
+    "Hamburger SV",
+    "Draw"
+   ],
+   "mediana": [
+    2.62,
+    2.5,
+    3.45
+   ],
+   "migliorQuota": [
+    2.71,
+    2.65,
+    3.7
+   ],
+   "probMercato": [
+    0.3573966406453055,
+    0.3753997269749352,
+    0.2672036323797593
+   ],
+   "margine": 0.07153446177674527,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Eintracht Frankfurt",
+   "trasf": "Augsburg",
+   "sport": "calcio",
+   "campionato": "Bundesliga - Germany",
+   "inizio": "2026-09-06T15:30:00Z",
+   "nSiti": 17,
+   "nomi": [
+    "Augsburg",
+    "Eintracht Frankfurt",
+    "Draw"
+   ],
+   "mediana": [
+    3.45,
+    1.9,
+    3.85
+   ],
+   "migliorQuota": [
+    3.7,
+    2.01,
+    4.17
+   ],
+   "probMercato": [
+    0.26579728590130475,
+    0.4979286289908232,
+    0.23627408510787207
+   ],
+   "margine": 0.07591112167771197,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Académico de Viseu",
+   "trasf": "FC Porto",
+   "sport": "calcio",
+   "campionato": "Primeira Liga - Portugal",
+   "inizio": "2026-08-29T17:00:00Z",
+   "nSiti": 5,
+   "nomi": [
+    "Académico de Viseu",
+    "FC Porto",
+    "Draw"
+   ],
+   "mediana": [
+    46,
+    1.02,
+    14
+   ],
+   "migliorQuota": [
+    50,
+    1.03,
+    30
+   ],
+   "probMercato": [
+    0.007277710908121648,
+    0.9447280592381501,
+    0.047994229853728275
+   ],
+   "margine": 0.07355985872609905,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Nacional",
+   "trasf": "CF Estrela",
+   "sport": "calcio",
+   "campionato": "Primeira Liga - Portugal",
+   "inizio": "2026-08-30T14:30:00Z",
+   "nSiti": 19,
+   "nomi": [
+    "CF Estrela",
+    "Nacional",
+    "Draw"
+   ],
+   "mediana": [
+    3,
+    2.3,
+    3.2
+   ],
+   "migliorQuota": [
+    3.25,
+    2.5,
+    3.35
+   ],
+   "probMercato": [
+    0.3069827308467486,
+    0.4064478173897922,
+    0.28656945176345927
+   ],
+   "margine": 0.08061594202898559,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Casa Pia",
+   "trasf": "Moreirense FC",
+   "sport": "calcio",
+   "campionato": "Primeira Liga - Portugal",
+   "inizio": "2026-08-30T17:00:00Z",
+   "nSiti": 20,
+   "nomi": [
+    "Casa Pia",
+    "Moreirense FC",
+    "Draw"
+   ],
+   "mediana": [
+    2.3,
+    3.125,
+    3.025
+   ],
+   "migliorQuota": [
+    2.48,
+    3.35,
+    3.2
+   ],
+   "probMercato": [
+    0.40481530902537693,
+    0.2924159324005107,
+    0.30276875857411245
+   ],
+   "margine": 0.08536112109234639,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Famalicão",
+   "trasf": "Gil Vicente",
+   "sport": "calcio",
+   "campionato": "Primeira Liga - Portugal",
+   "inizio": "2026-08-30T19:30:00Z",
+   "nSiti": 20,
+   "nomi": [
+    "Famalicão",
+    "Gil Vicente",
+    "Draw"
+   ],
+   "mediana": [
+    2.12,
+    3.475,
+    3.1
+   ],
+   "migliorQuota": [
+    2.2,
+    3.9,
+    3.3
+   ],
+   "probMercato": [
+    0.44213891471688815,
+    0.2618867880930117,
+    0.29597429719010016
+   ],
+   "margine": 0.08204854254149918,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Benfica",
+   "trasf": "Estoril",
+   "sport": "calcio",
+   "campionato": "Primeira Liga - Portugal",
+   "inizio": "2026-08-31T19:15:00Z",
+   "nSiti": 19,
+   "nomi": [
+    "Benfica",
+    "Estoril",
+    "Draw"
+   ],
+   "mediana": [
+    1.15,
+    15,
+    7.25
+   ],
+   "migliorQuota": [
+    1.18,
+    17.5,
+    8.4
+   ],
+   "probMercato": [
+    0.8356944245891026,
+    0.04789250005377714,
+    0.11641307535712037
+   ],
+   "margine": 0.07416291854072976,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Braga",
+   "trasf": "Vitória SC",
+   "sport": "calcio",
+   "campionato": "Primeira Liga - Portugal",
+   "inizio": "2026-08-31T19:15:00Z",
+   "nSiti": 20,
+   "nomi": [
+    "Braga",
+    "Vitória SC",
+    "Draw"
+   ],
+   "mediana": [
+    1.7349999999999999,
+    4.525,
+    3.5
+   ],
+   "migliorQuota": [
+    1.83,
+    5.1,
+    3.7
+   ],
+   "probMercato": [
+    0.5443599492909855,
+    0.19617742499748494,
+    0.2594626257115295
+   ],
+   "margine": 0.083077636933099,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Sporting Lisbon",
+   "trasf": "Nacional",
+   "sport": "calcio",
+   "campionato": "Primeira Liga - Portugal",
+   "inizio": "2026-09-05T19:30:00Z",
+   "nSiti": 8,
+   "nomi": [
+    "Nacional",
+    "Sporting Lisbon",
+    "Draw"
+   ],
+   "mediana": [
+    12.75,
+    1.1549999999999998,
+    6.1
+   ],
+   "migliorQuota": [
+    13,
+    1.17,
+    6.25
+   ],
+   "probMercato": [
+    0.05124270965137726,
+    0.8169734812116506,
+    0.1317838091369722
+   ],
+   "margine": 0.10816666457939372,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "AZ Alkmaar",
+   "trasf": "Go Ahead Eagles",
+   "sport": "calcio",
+   "campionato": "Dutch Eredivisie",
+   "inizio": "2026-08-29T16:45:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "AZ Alkmaar",
+    "Go Ahead Eagles",
+    "Draw"
+   ],
+   "mediana": [
+    1.11,
+    20,
+    7.25
+   ],
+   "migliorQuota": [
+    1.17,
+    30,
+    8.6
+   ],
+   "probMercato": [
+    0.859758002453715,
+    0.029016714161639142,
+    0.11122528338464588
+   ],
+   "margine": 0.08883193538365952,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "FC Zwolle",
+   "trasf": "NEC Nijmegen",
+   "sport": "calcio",
+   "campionato": "Dutch Eredivisie",
+   "inizio": "2026-08-29T19:00:00Z",
+   "nSiti": 22,
+   "nomi": [
+    "FC Zwolle",
+    "NEC Nijmegen",
+    "Draw"
+   ],
+   "mediana": [
+    3.575,
+    1.86,
+    4
+   ],
+   "migliorQuota": [
+    3.75,
+    1.98,
+    4.4
+   ],
+   "probMercato": [
+    0.2584965781965362,
+    0.5122075512593264,
+    0.22929587054413741
+   ],
+   "margine": 0.06735468832243008,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "FC Utrecht",
+   "trasf": "PSV Eindhoven",
+   "sport": "calcio",
+   "campionato": "Dutch Eredivisie",
+   "inizio": "2026-08-30T10:15:00Z",
+   "nSiti": 22,
+   "nomi": [
+    "FC Utrecht",
+    "PSV Eindhoven",
+    "Draw"
+   ],
+   "mediana": [
+    4.65,
+    1.61,
+    4.425
+   ],
+   "migliorQuota": [
+    5,
+    1.66,
+    4.9
+   ],
+   "probMercato": [
+    0.19643958916409412,
+    0.5963700065498436,
+    0.20719040428606225
+   ],
+   "margine": 0.062160476428192,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Feyenoord",
+   "trasf": "ADO Den Haag",
+   "sport": "calcio",
+   "campionato": "Dutch Eredivisie",
+   "inizio": "2026-08-30T12:30:00Z",
+   "nSiti": 22,
+   "nomi": [
+    "ADO Den Haag",
+    "Feyenoord",
+    "Draw"
+   ],
+   "mediana": [
+    14.55,
+    1.15,
+    8
+   ],
+   "migliorQuota": [
+    18,
+    1.18,
+    9.4
+   ],
+   "probMercato": [
+    0.052448373941547256,
+    0.8405784215075888,
+    0.10697320455086412
+   ],
+   "margine": 0.06329373972807417,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Willem II",
+   "trasf": "Heerenveen",
+   "sport": "calcio",
+   "campionato": "Dutch Eredivisie",
+   "inizio": "2026-08-30T12:30:00Z",
+   "nSiti": 22,
+   "nomi": [
+    "Heerenveen",
+    "Willem II",
+    "Draw"
+   ],
+   "mediana": [
+    1.77,
+    3.875,
+    4.074999999999999
+   ],
+   "migliorQuota": [
+    1.83,
+    4.2,
+    4.4
+   ],
+   "probMercato": [
+    0.5386950957523935,
+    0.2368713458478282,
+    0.22443355839977833
+   ],
+   "margine": 0.06843504054759664,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "SC Telstar",
+   "trasf": "Ajax",
+   "sport": "calcio",
+   "campionato": "Dutch Eredivisie",
+   "inizio": "2026-08-30T14:45:00Z",
+   "nSiti": 22,
+   "nomi": [
+    "Ajax",
+    "SC Telstar",
+    "Draw"
+   ],
+   "mediana": [
+    1.5,
+    5.4,
+    4.65
+   ],
+   "migliorQuota": [
+    1.55,
+    6.1,
+    5.1
+   ],
+   "probMercato": [
+    0.6393322562434005,
+    0.1656819999449676,
+    0.19498574381163195
+   ],
+   "margine": 0.0669056152927121,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "SC Cambuur",
+   "trasf": "FC Twente Enschede",
+   "sport": "calcio",
+   "campionato": "Dutch Eredivisie",
+   "inizio": "2026-08-30T18:00:00Z",
+   "nSiti": 21,
+   "nomi": [
+    "FC Twente Enschede",
+    "SC Cambuur",
+    "Draw"
+   ],
+   "mediana": [
+    1.33,
+    7.5,
+    5.3
+   ],
+   "migliorQuota": [
+    1.39,
+    8.5,
+    5.8
+   ],
+   "probMercato": [
+    0.7202408146738035,
+    0.11286846296396476,
+    0.16689072236223174
+   ],
+   "margine": 0.07389227786447239,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Volos FC",
+   "trasf": "Aris Thessaloniki",
+   "sport": "calcio",
+   "campionato": "Super League - Greece",
+   "inizio": "2026-08-29T16:29:00Z",
+   "nSiti": 5,
+   "nomi": [
+    "Aris Thessaloniki",
+    "Volos FC",
+    "Draw"
+   ],
+   "mediana": [
+    1.48,
+    7.5,
+    3.35
+   ],
+   "migliorQuota": [
+    1.5,
+    8,
+    3.6
+   ],
+   "probMercato": [
+    0.6318835893596216,
+    0.10420549159938397,
+    0.2639109190409945
+   ],
+   "margine": 0.1075164716955761,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Volos FC",
+   "trasf": "Iraklis FC",
+   "sport": "calcio",
+   "campionato": "Super League - Greece",
+   "inizio": "2026-08-29T16:30:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Iraklis FC",
+    "Volos FC",
+    "Draw"
+   ],
+   "mediana": [
+    1.53,
+    7.64,
+    3.38
+   ],
+   "migliorQuota": [
+    1.61,
+    9,
+    3.6
+   ],
+   "probMercato": [
+    0.6210703718985325,
+    0.1089153567605321,
+    0.2700142713409355
+   ],
+   "margine": 0.08034281176353142,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Panetolikos Agrinio",
+   "trasf": "Kalamata FC",
+   "sport": "calcio",
+   "campionato": "Super League - Greece",
+   "inizio": "2026-08-29T18:30:00Z",
+   "nSiti": 20,
+   "nomi": [
+    "Kalamata FC",
+    "Panetolikos Agrinio",
+    "Draw"
+   ],
+   "mediana": [
+    3.205,
+    2.2649999999999997,
+    3.005
+   ],
+   "migliorQuota": [
+    3.5,
+    2.38,
+    3.25
+   ],
+   "probMercato": [
+    0.28430447650442386,
+    0.4110736566734405,
+    0.3046218668221357
+   ],
+   "margine": 0.08629228641504105,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Aris Thessaloniki",
+   "trasf": "OFI Crete",
+   "sport": "calcio",
+   "campionato": "Super League - Greece",
+   "inizio": "2026-08-30T16:30:00Z",
+   "nSiti": 20,
+   "nomi": [
+    "Aris Thessaloniki",
+    "OFI Crete",
+    "Draw"
+   ],
+   "mediana": [
+    1.6349999999999998,
+    4.82,
+    3.6950000000000003
+   ],
+   "migliorQuota": [
+    1.71,
+    5.5,
+    4
+   ],
+   "probMercato": [
+    0.5763590750489965,
+    0.18101475840327524,
+    0.24262616654772817
+   ],
+   "margine": 0.08972566936236359,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Atromitos Athens",
+   "trasf": "PAOK Thessaloniki",
+   "sport": "calcio",
+   "campionato": "Super League - Greece",
+   "inizio": "2026-08-30T17:15:00Z",
+   "nSiti": 20,
+   "nomi": [
+    "Atromitos Athens",
+    "PAOK Thessaloniki",
+    "Draw"
+   ],
+   "mediana": [
+    4.7,
+    1.645,
+    3.7
+   ],
+   "migliorQuota": [
+    5,
+    1.79,
+    3.85
+   ],
+   "probMercato": [
+    0.18583460182092681,
+    0.5722576197458984,
+    0.2419077784331748
+   ],
+   "margine": 0.09093896327938866,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "AE Kifisia FC",
+   "trasf": "AEK Athens",
+   "sport": "calcio",
+   "campionato": "Super League - Greece",
+   "inizio": "2026-08-30T18:00:00Z",
+   "nSiti": 16,
+   "nomi": [
+    "AEK Athens",
+    "AE Kifisia FC",
+    "Draw"
+   ],
+   "mediana": [
+    1.3050000000000002,
+    8.315000000000001,
+    4.8
+   ],
+   "migliorQuota": [
+    1.36,
+    10.5,
+    5.3
+   ],
+   "probMercato": [
+    0.7255528569756036,
+    0.09465274519182315,
+    0.17979439783257337
+   ],
+   "margine": 0.09488144031812507,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Asteras Tripolis",
+   "trasf": "Olympiakos Piraeus",
+   "sport": "calcio",
+   "campionato": "Super League - Greece",
+   "inizio": "2026-08-30T18:00:00Z",
+   "nSiti": 20,
+   "nomi": [
+    "Asteras Tripolis",
+    "Olympiakos Piraeus",
+    "Draw"
+   ],
+   "mediana": [
+    9.2,
+    1.3,
+    4.65
+   ],
+   "migliorQuota": [
+    12,
+    1.35,
+    5.19
+   ],
+   "probMercato": [
+    0.08398711874619316,
+    0.7292039389651046,
+    0.18680894228870237
+   ],
+   "margine": 0.09298018484554249,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Levadiakos",
+   "trasf": "Panathinaikos",
+   "sport": "calcio",
+   "campionato": "Super League - Greece",
+   "inizio": "2026-08-31T16:30:00Z",
+   "nSiti": 20,
+   "nomi": [
+    "Levadiakos",
+    "Panathinaikos",
+    "Draw"
+   ],
+   "mediana": [
+    4.9,
+    1.61,
+    3.75
+   ],
+   "migliorQuota": [
+    6,
+    1.67,
+    4.1
+   ],
+   "probMercato": [
+    0.17708931542549586,
+    0.5848288454589851,
+    0.23808183911551903
+   ],
+   "margine": 0.09186631174208815,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "Volos FC",
+   "trasf": "Olympiakos Piraeus",
+   "sport": "calcio",
+   "campionato": "Super League - Greece",
+   "inizio": "2026-09-05T16:00:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Olympiakos Piraeus",
+    "Volos FC",
+    "Draw"
+   ],
+   "mediana": [
+    1.29,
+    9.8,
+    4.75
+   ],
+   "migliorQuota": [
+    1.3,
+    11,
+    5.25
+   ],
+   "probMercato": [
+    0.7372273730116252,
+    0.078868702049193,
+    0.18390392493918187
+   ],
+   "margine": 0.08776093056561662,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "AEK Athens",
+   "trasf": "Aris Thessaloniki",
+   "sport": "calcio",
+   "campionato": "Super League - Greece",
+   "inizio": "2026-09-05T18:00:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "AEK Athens",
+    "Aris Thessaloniki",
+    "Draw"
+   ],
+   "mediana": [
+    1.45,
+    6.3,
+    4.05
+   ],
+   "migliorQuota": [
+    1.47,
+    7.5,
+    4.4
+   ],
+   "probMercato": [
+    0.6504849727312437,
+    0.13193250919254806,
+    0.2175825180762083
+   ],
+   "margine": 0.09529891139086555,
+   "fonte": "oddsapi"
+  },
+  {
+   "casa": "New York Liberty",
+   "trasf": "Chicago Sky",
+   "sport": "basket",
+   "campionato": "WNBA",
+   "inizio": "2026-08-29T17:07:00Z",
+   "nSiti": 13,
+   "nomi": [
+    "Chicago Sky",
+    "New York Liberty"
+   ],
+   "mediana": [
+    8.5,
+    1.04
+   ],
+   "migliorQuota": [
+    12,
+    1.2
+   ],
+   "probMercato": [
+    0.07805429875445061,
+    0.9219457012455494
+   ],
+   "margine": 0.07918552036199089,
+   "fonte": "oddsapi",
+   "overMediana": 1.85,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.93,
+   "migliorQuotaUnder": 1.91,
+   "linea": 163.5
+  },
+  {
+   "casa": "Phoenix Mercury",
+   "trasf": "Toronto Tempo",
+   "sport": "basket",
+   "campionato": "WNBA",
+   "inizio": "2026-08-30T02:00:00Z",
+   "nSiti": 16,
+   "nomi": [
+    "Phoenix Mercury",
+    "Toronto Tempo"
+   ],
+   "mediana": [
+    1.23,
+    4.2
+   ],
+   "migliorQuota": [
+    1.25,
+    4.9
+   ],
+   "probMercato": [
+    0.7874564459930099,
+    0.21254355400699015
+   ],
+   "margine": 0.05110336817653893,
+   "fonte": "oddsapi",
+   "overMediana": 1.92,
+   "underMediana": 1.87,
+   "migliorQuotaOver": 2.07,
+   "migliorQuotaUnder": 1.92,
+   "linea": 174.5
+  },
+  {
+   "casa": "Atlanta Dream",
+   "trasf": "Minnesota Lynx",
+   "sport": "basket",
+   "campionato": "WNBA",
+   "inizio": "2026-08-30T19:00:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Atlanta Dream",
+    "Minnesota Lynx"
+   ],
+   "mediana": [
+    2.1,
+    1.73
+   ],
+   "migliorQuota": [
+    2.15,
+    1.75
+   ],
+   "probMercato": [
+    0.4490778970547765,
+    0.5509221029452235
+   ],
+   "margine": 0.054225158271401064,
+   "fonte": "oddsapi",
+   "overMediana": 1.91,
+   "underMediana": 1.8,
+   "migliorQuotaOver": 2.04,
+   "migliorQuotaUnder": 1.91,
+   "linea": 178.5
+  },
+  {
+   "casa": "Detroit Pistons",
+   "trasf": "Boston Celtics",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-20T19:00:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Boston Celtics",
+    "Detroit Pistons"
+   ],
+   "mediana": [
+    1.98,
+    1.8
+   ],
+   "migliorQuota": [
+    2.11,
+    1.83
+   ],
+   "probMercato": [
+    0.4747474747474752,
+    0.5252525252525247
+   ],
+   "margine": 0.06060606060606055,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.99,
+   "migliorQuotaUnder": 1.96,
+   "linea": 224
+  },
+  {
+   "casa": "New York Knicks",
+   "trasf": "Philadelphia 76ers",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-20T23:00:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "New York Knicks",
+    "Philadelphia 76ers"
+   ],
+   "mediana": [
+    1.5,
+    2.55
+   ],
+   "migliorQuota": [
+    1.53,
+    2.85
+   ],
+   "probMercato": [
+    0.6372549019607808,
+    0.36274509803921917
+   ],
+   "margine": 0.05882352941176472,
+   "fonte": "oddsapi",
+   "overMediana": 1.92,
+   "underMediana": 1.86,
+   "migliorQuotaOver": 2.03,
+   "migliorQuotaUnder": 1.92,
+   "linea": 232.5
+  },
+  {
+   "casa": "San Antonio Spurs",
+   "trasf": "Oklahoma City Thunder",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-21T01:30:00Z",
+   "nSiti": 15,
+   "nomi": [
+    "Oklahoma City Thunder",
+    "San Antonio Spurs"
+   ],
+   "mediana": [
+    2.02,
+    1.77
+   ],
+   "migliorQuota": [
+    2.14,
+    1.83
+   ],
+   "probMercato": [
+    0.4650388767690335,
+    0.5349611232309666
+   ],
+   "margine": 0.06002125636292455,
+   "fonte": "oddsapi",
+   "overMediana": 1.89,
+   "underMediana": 1.91,
+   "migliorQuotaOver": 1.92,
+   "migliorQuotaUnder": 2.04,
+   "linea": 228.5
+  },
+  {
+   "casa": "Orlando Magic",
+   "trasf": "Atlanta Hawks",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-21T23:10:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Atlanta Hawks",
+    "Orlando Magic"
+   ],
+   "mediana": [
+    2.0700000000000003,
+    1.69
+   ],
+   "migliorQuota": [
+    2.15,
+    1.75
+   ],
+   "probMercato": [
+    0.44568790555412763,
+    0.5543120944458725
+   ],
+   "margine": 0.07480776377097431,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.92,
+   "migliorQuotaUnder": 1.92,
+   "linea": 233.5
+  },
+  {
+   "casa": "Washington Wizards",
+   "trasf": "Milwaukee Bucks",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-21T23:10:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Milwaukee Bucks",
+    "Washington Wizards"
+   ],
+   "mediana": [
+    2.8,
+    1.4
+   ],
+   "migliorQuota": [
+    3.22,
+    1.44
+   ],
+   "probMercato": [
+    0.321428571428579,
+    0.6785714285714209
+   ],
+   "margine": 0.0714285714285714,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.96,
+   "migliorQuotaUnder": 2,
+   "linea": 238.5
+  },
+  {
+   "casa": "Brooklyn Nets",
+   "trasf": "Charlotte Hornets",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-21T23:40:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Brooklyn Nets",
+    "Charlotte Hornets"
+   ],
+   "mediana": [
+    2.35,
+    1.545
+   ],
+   "migliorQuota": [
+    2.45,
+    1.59
+   ],
+   "probMercato": [
+    0.389141361977556,
+    0.610858638022444
+   ],
+   "margine": 0.07278110583212838,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.96,
+   "migliorQuotaUnder": 2,
+   "linea": 226.5
+  },
+  {
+   "casa": "Miami Heat",
+   "trasf": "Minnesota Timberwolves",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-21T23:40:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Miami Heat",
+    "Minnesota Timberwolves"
+   ],
+   "mediana": [
+    1.78,
+    2.005
+   ],
+   "migliorQuota": [
+    1.87,
+    2.06
+   ],
+   "probMercato": [
+    0.5315223178010025,
+    0.46847768219899744
+   ],
+   "margine": 0.06055087001597137,
+   "fonte": "oddsapi",
+   "overMediana": 1.87,
+   "underMediana": 1.93,
+   "migliorQuotaOver": 1.96,
+   "migliorQuotaUnder": 1.96,
+   "linea": 243.5
+  },
+  {
+   "casa": "New Orleans Pelicans",
+   "trasf": "Indiana Pacers",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-22T00:10:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Indiana Pacers",
+    "New Orleans Pelicans"
+   ],
+   "mediana": [
+    1.565,
+    2.315
+   ],
+   "migliorQuota": [
+    1.62,
+    2.38
+   ],
+   "probMercato": [
+    0.6035060965090816,
+    0.39649390349091845
+   ],
+   "margine": 0.0709430785473264,
+   "fonte": "oddsapi",
+   "overMediana": 1.86,
+   "underMediana": 1.9,
+   "migliorQuotaOver": 1.96,
+   "migliorQuotaUnder": 1.91,
+   "linea": 243.5
+  },
+  {
+   "casa": "Memphis Grizzlies",
+   "trasf": "Utah Jazz",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-22T00:10:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Memphis Grizzlies",
+    "Utah Jazz"
+   ],
+   "mediana": [
+    2.165,
+    1.645
+   ],
+   "migliorQuota": [
+    2.25,
+    1.69
+   ],
+   "probMercato": [
+    0.42699551443593686,
+    0.5730044855640632
+   ],
+   "margine": 0.06979649999649018,
+   "fonte": "oddsapi",
+   "overMediana": 1.9,
+   "underMediana": 1.86,
+   "migliorQuotaOver": 1.92,
+   "migliorQuotaUnder": 1.92,
+   "linea": 241.5
+  },
+  {
+   "casa": "Houston Rockets",
+   "trasf": "Dallas Mavericks",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-22T00:40:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Dallas Mavericks",
+    "Houston Rockets"
+   ],
+   "mediana": [
+    3.325,
+    1.29
+   ],
+   "migliorQuota": [
+    4.25,
+    1.34
+   ],
+   "probMercato": [
+    0.2627790406248392,
+    0.7372209593751609
+   ],
+   "margine": 0.07594567814886055,
+   "fonte": "oddsapi",
+   "overMediana": 1.86,
+   "underMediana": 1.9,
+   "migliorQuotaOver": 1.96,
+   "migliorQuotaUnder": 2,
+   "linea": 227.5
+  },
+  {
+   "casa": "Los Angeles Lakers",
+   "trasf": "Golden State Warriors",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-22T02:10:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Golden State Warriors",
+    "Los Angeles Lakers"
+   ],
+   "mediana": [
+    2.5,
+    1.51
+   ],
+   "migliorQuota": [
+    2.68,
+    1.54
+   ],
+   "probMercato": [
+    0.3688741721854339,
+    0.631125827814566
+   ],
+   "margine": 0.06225165562913926,
+   "fonte": "oddsapi",
+   "overMediana": 1.92,
+   "underMediana": 1.92,
+   "migliorQuotaOver": 1.95,
+   "migliorQuotaUnder": 1.97,
+   "linea": 235.5
+  },
+  {
+   "casa": "Portland Trail Blazers",
+   "trasf": "Phoenix Suns",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-22T02:10:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Phoenix Suns",
+    "Portland Trail Blazers"
+   ],
+   "mediana": [
+    2.375,
+    1.545
+   ],
+   "migliorQuota": [
+    2.45,
+    1.59
+   ],
+   "probMercato": [
+    0.386901720320221,
+    0.6130982796797789
+   ],
+   "margine": 0.06830182251745875,
+   "fonte": "oddsapi",
+   "overMediana": 1.86,
+   "underMediana": 1.9,
+   "migliorQuotaOver": 1.92,
+   "migliorQuotaUnder": 1.92,
+   "linea": 235.5
+  },
+  {
+   "casa": "Philadelphia 76ers",
+   "trasf": "Cleveland Cavaliers",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-22T23:10:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Cleveland Cavaliers",
+    "Philadelphia 76ers"
+   ],
+   "mediana": [
+    2.4,
+    1.52
+   ],
+   "migliorQuota": [
+    2.5,
+    1.59
+   ],
+   "probMercato": [
+    0.37938596491228443,
+    0.6206140350877155
+   ],
+   "margine": 0.07456140350877205,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.88,
+   "migliorQuotaUnder": 2,
+   "linea": 233.5
+  },
+  {
+   "casa": "Oklahoma City Thunder",
+   "trasf": "Denver Nuggets",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-23T01:40:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Denver Nuggets",
+    "Oklahoma City Thunder"
+   ],
+   "mediana": [
+    3.05,
+    1.35
+   ],
+   "migliorQuota": [
+    3.3,
+    1.38
+   ],
+   "probMercato": [
+    0.2935640558591484,
+    0.7064359441408516
+   ],
+   "margine": 0.06860959319975724,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 2,
+   "migliorQuotaUnder": 1.92,
+   "linea": 232.5
+  },
+  {
+   "casa": "Boston Celtics",
+   "trasf": "New York Knicks",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-23T23:10:00Z",
+   "nSiti": 8,
+   "nomi": [
+    "Boston Celtics",
+    "New York Knicks"
+   ],
+   "mediana": [
+    1.665,
+    2.0549999999999997
+   ],
+   "migliorQuota": [
+    1.75,
+    2.1
+   ],
+   "probMercato": [
+    0.5569912978672086,
+    0.4430087021327914
+   ],
+   "margine": 0.08721860546678073,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.91,
+   "migliorQuotaUnder": 1.91,
+   "linea": 223.5
+  },
+  {
+   "casa": "San Antonio Spurs",
+   "trasf": "Houston Rockets",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-10-24T01:40:00Z",
+   "nSiti": 8,
+   "nomi": [
+    "Houston Rockets",
+    "San Antonio Spurs"
+   ],
+   "mediana": [
+    2.675,
+    1.41
+   ],
+   "migliorQuota": [
+    2.75,
+    1.48
+   ],
+   "probMercato": [
+    0.33230595877246144,
+    0.6676940412275385
+   ],
+   "margine": 0.08305163385696313,
+   "fonte": "oddsapi",
+   "overMediana": 1.86,
+   "underMediana": 1.9,
+   "migliorQuotaOver": 1.91,
+   "migliorQuotaUnder": 1.91,
+   "linea": 225.5
+  },
+  {
+   "casa": "New York Knicks",
+   "trasf": "San Antonio Spurs",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-12-25T17:00:00Z",
+   "nSiti": 13,
+   "nomi": [
+    "New York Knicks",
+    "San Antonio Spurs"
+   ],
+   "mediana": [
+    1.84,
+    1.91
+   ],
+   "migliorQuota": [
+    1.92,
+    1.98
+   ],
+   "probMercato": [
+    0.5099590257227404,
+    0.49004097427725946
+   ],
+   "margine": 0.06703847029364907,
+   "fonte": "oddsapi",
+   "overMediana": 1.9,
+   "underMediana": 1.86,
+   "migliorQuotaOver": 1.92,
+   "migliorQuotaUnder": 1.92,
+   "linea": 230
+  },
+  {
+   "casa": "Boston Celtics",
+   "trasf": "Miami Heat",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-12-25T19:30:00Z",
+   "nSiti": 13,
+   "nomi": [
+    "Boston Celtics",
+    "Miami Heat"
+   ],
+   "mediana": [
+    1.49,
+    2.55
+   ],
+   "migliorQuota": [
+    1.53,
+    2.75
+   ],
+   "probMercato": [
+    0.6394920384261048,
+    0.3605079615738952
+   ],
+   "margine": 0.06329780234241356,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.92,
+   "migliorQuotaUnder": 1.92,
+   "linea": 230.5
+  },
+  {
+   "casa": "Los Angeles Lakers",
+   "trasf": "Philadelphia 76ers",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-12-25T22:00:00Z",
+   "nSiti": 13,
+   "nomi": [
+    "Los Angeles Lakers",
+    "Philadelphia 76ers"
+   ],
+   "mediana": [
+    1.85,
+    1.9
+   ],
+   "migliorQuota": [
+    1.91,
+    1.96
+   ],
+   "probMercato": [
+    0.5071123755334279,
+    0.4928876244665719
+   ],
+   "margine": 0.06685633001422464,
+   "fonte": "oddsapi",
+   "overMediana": 1.86,
+   "underMediana": 1.9,
+   "migliorQuotaOver": 1.92,
+   "migliorQuotaUnder": 2,
+   "linea": 234
+  },
+  {
+   "casa": "Minnesota Timberwolves",
+   "trasf": "Oklahoma City Thunder",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-12-26T01:00:00Z",
+   "nSiti": 13,
+   "nomi": [
+    "Minnesota Timberwolves",
+    "Oklahoma City Thunder"
+   ],
+   "mediana": [
+    2.3,
+    1.56
+   ],
+   "migliorQuota": [
+    2.48,
+    1.62
+   ],
+   "probMercato": [
+    0.3968784838350086,
+    0.6031215161649913
+   ],
+   "margine": 0.0758082497212933,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.92,
+   "migliorQuotaUnder": 1.92,
+   "linea": 233
+  },
+  {
+   "casa": "Golden State Warriors",
+   "trasf": "Denver Nuggets",
+   "sport": "basket",
+   "campionato": "NBA",
+   "inizio": "2026-12-26T03:30:00Z",
+   "nSiti": 13,
+   "nomi": [
+    "Denver Nuggets",
+    "Golden State Warriors"
+   ],
+   "mediana": [
+    1.68,
+    2.06
+   ],
+   "migliorQuota": [
+    1.79,
+    2.18
+   ],
+   "probMercato": [
+    0.5549006010171043,
+    0.4450993989828957
+   ],
+   "margine": 0.08067498844197862,
+   "fonte": "oddsapi",
+   "overMediana": 1.86,
+   "underMediana": 1.9,
+   "migliorQuotaOver": 1.92,
+   "migliorQuotaUnder": 1.92,
+   "linea": 234.5
+  },
+  {
+   "casa": "Dubai Basketball",
+   "trasf": "Real Madrid",
+   "sport": "basket",
+   "campionato": "Basketball Euroleague",
+   "inizio": "2026-09-24T16:00:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Dubai Basketball",
+    "Real Madrid"
+   ],
+   "mediana": [
+    1.73,
+    2.0549999999999997
+   ],
+   "migliorQuota": [
+    1.81,
+    2.18
+   ],
+   "probMercato": [
+    0.5457083386073714,
+    0.4542916613926286
+   ],
+   "margine": 0.06465268694710513,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.93,
+   "migliorQuotaUnder": 1.93,
+   "linea": 169.5
+  },
+  {
+   "casa": "Hapoel Tel Aviv",
+   "trasf": "FC Bayern München",
+   "sport": "basket",
+   "campionato": "Basketball Euroleague",
+   "inizio": "2026-09-24T17:00:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "FC Bayern München",
+    "Hapoel Tel Aviv"
+   ],
+   "mediana": [
+    4.35,
+    1.2
+   ],
+   "migliorQuota": [
+    4.6,
+    1.27
+   ],
+   "probMercato": [
+    0.19827586206901687,
+    0.8017241379309832
+   ],
+   "margine": 0.06321839080459779,
+   "fonte": "oddsapi",
+   "overMediana": 1.9,
+   "underMediana": 1.85,
+   "migliorQuotaOver": 1.95,
+   "migliorQuotaUnder": 1.91,
+   "linea": 171.5
+  },
+  {
+   "casa": "KK Crvena zvezda",
+   "trasf": "Žalgiris",
+   "sport": "basket",
+   "campionato": "Basketball Euroleague",
+   "inizio": "2026-09-24T18:00:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "KK Crvena zvezda",
+    "Žalgiris"
+   ],
+   "mediana": [
+    1.6,
+    2.315
+   ],
+   "migliorQuota": [
+    1.62,
+    2.41
+   ],
+   "probMercato": [
+    0.5965172786177086,
+    0.4034827213822914
+   ],
+   "margine": 0.05696544276457871,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.9,
+   "migliorQuotaOver": 1.93,
+   "migliorQuotaUnder": 1.93,
+   "linea": 168.5
+  },
+  {
+   "casa": "Panathinaikos",
+   "trasf": "Paris Basketball",
+   "sport": "basket",
+   "campionato": "Basketball Euroleague",
+   "inizio": "2026-09-24T18:15:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Panathinaikos",
+    "Paris Basketball"
+   ],
+   "mediana": [
+    1.1,
+    6.5
+   ],
+   "migliorQuota": [
+    1.15,
+    7
+   ],
+   "probMercato": [
+    0.8776223776216078,
+    0.1223776223783922
+   ],
+   "margine": 0.06293706293706292,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.93,
+   "migliorQuotaUnder": 1.96,
+   "linea": 172.5
+  },
+  {
+   "casa": "FC Barcelona Bàsquet",
+   "trasf": "Anadolu Efes",
+   "sport": "basket",
+   "campionato": "Basketball Euroleague",
+   "inizio": "2026-09-24T18:30:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Anadolu Efes",
+    "FC Barcelona Bàsquet"
+   ],
+   "mediana": [
+    2.1900000000000004,
+    1.65
+   ],
+   "migliorQuota": [
+    2.37,
+    1.7
+   ],
+   "probMercato": [
+    0.42528019925280364,
+    0.5747198007471965
+   ],
+   "margine": 0.06268161062681599,
+   "fonte": "oddsapi",
+   "overMediana": 1.9,
+   "underMediana": 1.85,
+   "migliorQuotaOver": 1.95,
+   "migliorQuotaUnder": 1.91,
+   "linea": 169.5
+  },
+  {
+   "casa": "Saski Baskonia",
+   "trasf": "Olympiacos",
+   "sport": "basket",
+   "campionato": "Basketball Euroleague",
+   "inizio": "2026-09-24T18:30:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "Olympiacos",
+    "Saski Baskonia"
+   ],
+   "mediana": [
+    1.3,
+    3.475
+   ],
+   "migliorQuota": [
+    1.35,
+    3.6
+   ],
+   "probMercato": [
+    0.7407304925290413,
+    0.2592695074709588
+   ],
+   "margine": 0.05700055340343102,
+   "fonte": "oddsapi",
+   "overMediana": 1.88,
+   "underMediana": 1.9,
+   "migliorQuotaOver": 1.92,
+   "migliorQuotaUnder": 1.94,
+   "linea": 169.5
+  },
+  {
+   "casa": "ASVEL Lyon Villeurbanne",
+   "trasf": "Maccabi Tel Aviv",
+   "sport": "basket",
+   "campionato": "Basketball Euroleague",
+   "inizio": "2026-09-24T18:45:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "ASVEL Lyon Villeurbanne",
+    "Maccabi Tel Aviv"
+   ],
+   "mediana": [
+    2.12,
+    1.7
+   ],
+   "migliorQuota": [
+    2.18,
+    1.8
+   ],
+   "probMercato": [
+    0.4417314095449512,
+    0.558268590455049
+   ],
+   "margine": 0.059933407325194255,
+   "fonte": "oddsapi",
+   "overMediana": 1.9,
+   "underMediana": 1.85,
+   "migliorQuotaOver": 1.96,
+   "migliorQuotaUnder": 1.92,
+   "linea": 172.5
+  },
+  {
+   "casa": "Fenerbahce SK",
+   "trasf": "Virtus Segafredo Bologna",
+   "sport": "basket",
+   "campionato": "Basketball Euroleague",
+   "inizio": "2026-09-25T17:45:00Z",
+   "nSiti": 9,
+   "nomi": [
+    "Fenerbahce SK",
+    "Virtus Segafredo Bologna"
+   ],
+   "mediana": [
+    1.15,
+    5
+   ],
+   "migliorQuota": [
+    1.18,
+    5.5
+   ],
+   "probMercato": [
+    0.8347826086954648,
+    0.16521739130453528
+   ],
+   "margine": 0.06956521739130439,
+   "fonte": "oddsapi",
+   "overMediana": 1.9,
+   "underMediana": 1.88,
+   "migliorQuotaOver": 1.91,
+   "migliorQuotaUnder": 1.91,
+   "linea": 167.5
+  },
+  {
+   "casa": "KK Partizan NIS",
+   "trasf": "Pallacanestro Olimpia Milano",
+   "sport": "basket",
+   "campionato": "Basketball Euroleague",
+   "inizio": "2026-09-25T18:45:00Z",
+   "nSiti": 10,
+   "nomi": [
+    "KK Partizan NIS",
+    "Pallacanestro Olimpia Milano"
+   ],
+   "mediana": [
+    1.68,
+    2.18
+   ],
+   "migliorQuota": [
+    1.7,
+    2.23
+   ],
+   "probMercato": [
+    0.5682612494539088,
+    0.43173875054609123
+   ],
+   "margine": 0.05395369156837049,
+   "fonte": "oddsapi",
+   "overMediana": 1.885,
+   "underMediana": 1.92,
+   "migliorQuotaOver": 1.94,
+   "migliorQuotaUnder": 1.92,
+   "linea": 168.5
+  }
+ ]
 }
