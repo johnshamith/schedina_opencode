@@ -1,42 +1,41 @@
 {
- "quando": "2026-08-29T10:21:55.817Z",
- "giorno": "2026-08-29",
+ "quando": "2026-08-29T17:30:17.311Z",
+ "giorno": "2026-08-30",
  "tipo": "DOPPIA",
  "sport": [
-  "calcio",
-  "basket"
+  "calcio"
  ],
- "quota": 26.55,
- "prob": 0.3401500778636727,
- "costo": -8.03098456728051,
+ "quota": 28.88,
+ "prob": 0.22834065912393783,
+ "costo": -5.5944782354993245,
  "puntata": 1,
- "vincitaAttesa": 26.55,
+ "vincitaAttesa": 28.88,
  "gambe": [
   {
-   "partita": "RB Leipzig vs Borussia M'gladbach",
+   "partita": "Rennes vs Le Mans FC",
    "sport": "calcio",
-   "esito": "Borussia Monchengladbach",
-   "spiega": "vince Borussia M'gladbach",
-   "quota": 5.9,
-   "prob": 0.5462980124632925,
-   "edge": 2.223158273533426,
-   "kelly": 0.08555409495255781,
-   "campionato": "Bundesliga - Germany",
-   "nSiti": 24,
-   "inizio": "2026-08-29T13:30:00Z"
+   "esito": "Le Mans FC",
+   "spiega": "vince Le Mans FC",
+   "quota": 7.6,
+   "prob": 0.5046073896616021,
+   "edge": 2.835016161428176,
+   "kelly": 0.08827305953661266,
+   "campionato": "Ligue 1 - France",
+   "nSiti": 23,
+   "inizio": "2026-08-30T15:15:00Z"
   },
   {
-   "partita": "New York Liberty vs Chicago Sky",
-   "sport": "basket",
-   "esito": "Chicago Sky",
-   "spiega": "vince Chicago Sky",
-   "quota": 4.5,
-   "prob": 0.622645644141948,
-   "edge": 1.801905398638766,
-   "kelly": 0.08423283960691556,
-   "campionato": "WNBA",
-   "nSiti": 16,
-   "inizio": "2026-08-29T17:00:00Z"
+   "partita": "AS Monaco vs Marseille",
+   "sport": "calcio",
+   "esito": "Draw",
+   "spiega": "vince il pareggio",
+   "quota": 3.8,
+   "prob": 0.4525115244092378,
+   "edge": 0.7195437927551036,
+   "kelly": 0.02384216681659515,
+   "campionato": "Ligue 1 - France",
+   "nSiti": 23,
+   "inizio": "2026-08-30T18:45:00Z"
   }
  ]
 }

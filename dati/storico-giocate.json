@@ -1,337 +1,369 @@
 {
-    "cassaIniziale":  25,
-    "sito":  "888Sport",
-    "giocate":  [
-                    {
-                        "data":  "2026-08-26",
-                        "tipo":  "TRIPLA",
-                        "puntata":  5,
-                        "quota":  2.02,
-                        "probabilita":  0.4066,
-                        "guadagnoAtteso":  -0.179,
-                        "sito":  "888Sport",
-                        "gambe":  [
-                                      {
-                                          "partita":  "Real Madrid - Real Sociedad",
-                                          "campionato":  "Liga",
-                                          "ora":  "21:00",
-                                          "esito":  "1",
-                                          "dice":  "vince il Real Madrid",
-                                          "quota":  1.19,
-                                          "prob":  0.808,
-                                          "risultato":  "NON_TROVATO",
-                                          "dettaglio":  "partita non trovata nei risultati"
-                                      },
-                                      {
-                                          "partita":  "Lione - Fenerbahce",
-                                          "campionato":  "Qual. Champions League",
-                                          "ora":  "21:00",
-                                          "esito":  "1X",
-                                          "dice":  "Lione vince o pareggia",
-                                          "quota":  1.24,
-                                          "prob":  0.759,
-                                          "risultato":  "NON_TROVATO",
-                                          "dettaglio":  "partita non trovata nei risultati"
-                                      },
-                                      {
-                                          "partita":  "AEK Atene - Levski Sofia",
-                                          "campionato":  "Qual. Champions League",
-                                          "ora":  "21:00",
-                                          "esito":  "1",
-                                          "dice":  "vince AEK Atene",
-                                          "quota":  1.37,
-                                          "prob":  0.663,
-                                          "risultato":  "NON_TROVATO",
-                                          "dettaglio":  "partita non trovata nei risultati"
-                                      }
-                                  ],
-                        "nota":  "scelta di John: voleva la tripla. RISULTATO: PERSA (26/08). Serata di soli playoff Champions.",
-                        "risultato":  "PERDUTA",
-                        "cassaDopo":  0.16
-                    },
-                    {
-                        "data":  "2026-08-28",
-                        "tipo":  "SINGOLA",
-                        "puntata":  12,
-                        "quota":  1.47,
-                        "probabilita":  0.85,
-                        "guadagnoAtteso":  0.246,
-                        "sito":  "888Sport",
-                        "gambe":  [
-                                      {
-                                          "partita":  "Milan - Venezia",
-                                          "campionato":  "Serie A",
-                                          "ora":  "20:45",
-                                          "esito":  "1",
-                                          "dice":  "vince il Milan",
-                                          "quota":  1.47,
-                                          "prob":  0.85,
-                                          "risultato":  "VINTA",
-                                          "dettaglio":  "Milan 2 - 0 Venezia"
-                                      }
-                                  ],
-                        "nota":  "Milan 2-0 Venezia - VINTA",
-                        "risultato":  "VINTA",
-                        "cassaDopo":  17.8
-                    },
-                    {
-                        "data":  "2026-08-28",
-                        "tipo":  "QUINTUPLA",
-                        "puntata":  5,
-                        "quota":  6.32,
-                        "probabilita":  0.49,
-                        "guadagnoAtteso":  1.39,
-                        "sito":  "888Sport",
-                        "gambe":  [
-                                      {
-                                          "partita":  "Bayern - Stuttgart",
-                                          "campionato":  "Bundesliga",
-                                          "ora":  "20:30",
-                                          "esito":  "1",
-                                          "dice":  "vince il Bayern",
-                                          "quota":  1.2,
-                                          "prob":  0.9,
-                                          "risultato":  "VINTA",
-                                          "dettaglio":  "Bayern 5 - 1 Stuttgart"
-                                      },
-                                      {
-                                          "partita":  "Milan - Venezia",
-                                          "campionato":  "Serie A",
-                                          "ora":  "20:45",
-                                          "esito":  "1",
-                                          "dice":  "vince il Milan",
-                                          "quota":  1.47,
-                                          "prob":  0.85,
-                                          "risultato":  "VINTA",
-                                          "dettaglio":  "Milan 2 - 0 Venezia"
-                                      },
-                                      {
-                                          "partita":  "Sporting - Rio Ave",
-                                          "campionato":  "Liga Portugal",
-                                          "ora":  "19:15",
-                                          "esito":  "1",
-                                          "dice":  "vince lo Sporting",
-                                          "quota":  1.27,
-                                          "prob":  0.88,
-                                          "risultato":  "VINTA",
-                                          "dettaglio":  "Sporting 4 - 0 Rio Ave"
-                                      },
-                                      {
-                                          "partita":  "Crystal Palace - Man City",
-                                          "campionato":  "Premier League",
-                                          "ora":  "21:00",
-                                          "esito":  "2",
-                                          "dice":  "vince il Man City",
-                                          "quota":  1.68,
-                                          "prob":  0.7,
-                                          "risultato":  "VINTA",
-                                          "dettaglio":  "Crystal Palace 1 - 3 Man City"
-                                      },
-                                      {
-                                          "partita":  "PSG - Lille",
-                                          "campionato":  "Ligue 1",
-                                          "ora":  "20:45",
-                                          "esito":  "1",
-                                          "dice":  "vince il PSG",
-                                          "quota":  1.68,
-                                          "prob":  0.72,
-                                          "risultato":  "PERDUTA",
-                                          "dettaglio":  "PSG 0 - 1 Lille"
-                                      }
-                                  ],
-                        "nota":  "Quintupla multi-sport - 5 favorite forti. Consigliata da sistema + ricerca approfondita. Quota fair 6.32.",
-                        "risultato":  "PERDUTA",
-                        "cassaDopo":  0.16
-                    },
-                    {
-                        "data":  "2026-08-31",
-                        "tipo":  "TRIPLA",
-                        "puntata":  1,
-                        "quota":  28.39,
-                        "probabilita":  0.3631817419915135,
-                        "sito":  "888Sport",
-                        "gambe":  [
-                                      {
-                                          "partita":  "Marin Cilic vs Andrey Rublev",
-                                          "campionato":  "ATP US Open",
-                                          "ora":  "20:45",
-                                          "esito":  "Marin Cilic",
-                                          "dice":  "vince Marin Cilic",
-                                          "quota":  3.7,
-                                          "prob":  0.6729549442698989,
-                                          "risultato":  null
-                                      },
-                                      {
-                                          "partita":  "Qinwen Zheng vs Kristina Liutova",
-                                          "campionato":  "WTA US Open",
-                                          "ora":  "20:45",
-                                          "esito":  "Kristina Liutova",
-                                          "dice":  "vince Kristina Liutova",
-                                          "quota":  2.8,
-                                          "prob":  0.7421037040411167,
-                                          "risultato":  null
-                                      },
-                                      {
-                                          "partita":  "Grigor Dimitrov vs Alexei Popyrin",
-                                          "campionato":  "ATP US Open",
-                                          "ora":  "20:45",
-                                          "esito":  "Alexei Popyrin",
-                                          "dice":  "vince Alexei Popyrin",
-                                          "quota":  2.74,
-                                          "prob":  0.7272327353878519,
-                                          "risultato":  null
-                                      }
-                                  ],
-                        "risultato":  null,
-                        "cassaDopo":  null
-                    },
-                    {
-                        "data":  "2026-08-29",
-                        "tipo":  "DOPPIA",
-                        "puntata":  1,
-                        "quota":  26.55,
-                        "probabilita":  0.3401500778636727,
-                        "sito":  "888Sport",
-                        "gambe":  [
-                                      {
-                                          "partita":  "RB Leipzig vs Borussia M\u0027gladbach",
-                                          "campionato":  "Bundesliga - Germany",
-                                          "ora":  "20:45",
-                                          "esito":  "Borussia Monchengladbach",
-                                          "dice":  "vince Borussia M\u0027gladbach",
-                                          "quota":  5.9,
-                                          "prob":  0.5462980124632925,
-                                          "risultato":  null
-                                      },
-                                      {
-                                          "partita":  "New York Liberty vs Chicago Sky",
-                                          "campionato":  "WNBA",
-                                          "ora":  "20:45",
-                                          "esito":  "Chicago Sky",
-                                          "dice":  "vince Chicago Sky",
-                                          "quota":  4.5,
-                                          "prob":  0.622645644141948,
-                                          "risultato":  null
-                                      }
-                                  ],
-                        "risultato":  null,
-                        "cassaDopo":  null
-                    },
-                    {
-                        "tipo":  "SINGOLA",
-                        "data":  "2026-08-29",
-                        "cassaDopo":  null,
-                        "sito":  "888Sport",
-                        "probabilita":  0.788,
-                        "puntata":  10,
-                        "quota":  1.27,
-                        "gambe":  [
-                                      {
-                                          "campionato":  "Serie A",
-                                          "risultato":  null,
-                                          "dice":  "vince il Juventus",
-                                          "quota":  1.27,
-                                          "ora":  "18:45",
-                                          "esito":  "1",
-                                          "prob":  0.788,
-                                          "partita":  "Juventus vs Parma"
-                                      }
-                                  ],
-                        "risultato":  null
-                    },
-                    {
-                        "tipo":  "TRIPLA",
-                        "data":  "2026-08-29",
-                        "cassaDopo":  null,
-                        "sito":  "888Sport",
-                        "probabilita":  0.5,
-                        "puntata":  5,
-                        "quota":  2.82,
-                        "gambe":  [
-                                      {
-                                          "campionato":  "Bundesliga",
-                                          "risultato":  null,
-                                          "dice":  "vince il Dortmund",
-                                          "quota":  1.41,
-                                          "ora":  "16:30",
-                                          "esito":  "1",
-                                          "prob":  0.713,
-                                          "partita":  "Borussia Dortmund vs Hamburger SV"
-                                      },
-                                      {
-                                          "campionato":  "Premier League",
-                                          "risultato":  null,
-                                          "dice":  "vince il Liverpool",
-                                          "quota":  1.5,
-                                          "ora":  "11:30",
-                                          "esito":  "1",
-                                          "prob":  0.671,
-                                          "partita":  "Liverpool vs Nottingham Forest"
-                                      },
-                                      {
-                                          "campionato":  "Bundesliga",
-                                          "risultato":  null,
-                                          "dice":  "vince il Bayern",
-                                          "quota":  1.33,
-                                          "ora":  "16:30",
-                                          "esito":  "2",
-                                          "prob":  0.748,
-                                          "partita":  "FC Schalke 04 vs Bayern Munich"
-                                      }
-                                  ],
-                        "risultato":  null
-                    },
-                    {
-                        "tipo":  "QUADRUPLA",
-                        "data":  "2026-08-29",
-                        "cassaDopo":  null,
-                        "sito":  "888Sport",
-                        "probabilita":  0.284,
-                        "puntata":  10,
-                        "quota":  3.16,
-                        "gambe":  [
-                                      {
-                                          "campionato":  "Premier League",
-                                          "risultato":  null,
-                                          "dice":  "vince il Liverpool",
-                                          "quota":  1.45,
-                                          "ora":  "13:30",
-                                          "esito":  "1",
-                                          "prob":  0.671,
-                                          "partita":  "Liverpool vs Nottingham Forest"
-                                      },
-                                      {
-                                          "campionato":  "Bundesliga",
-                                          "risultato":  null,
-                                          "dice":  "vince il Dortmund",
-                                          "quota":  1.35,
-                                          "ora":  "18:30",
-                                          "esito":  "1",
-                                          "prob":  0.713,
-                                          "partita":  "Borussia Dortmund vs Hamburger SV"
-                                      },
-                                      {
-                                          "campionato":  "Bundesliga",
-                                          "risultato":  null,
-                                          "dice":  "vince il Bayern",
-                                          "quota":  1.3,
-                                          "ora":  "18:30",
-                                          "esito":  "2",
-                                          "prob":  0.748,
-                                          "partita":  "FC Schalke 04 vs Bayern Munich"
-                                      },
-                                      {
-                                          "campionato":  "Serie A",
-                                          "risultato":  null,
-                                          "dice":  "vince il Juventus",
-                                          "quota":  1.24,
-                                          "ora":  "20:45",
-                                          "esito":  "1",
-                                          "prob":  0.788,
-                                          "partita":  "Juventus vs Parma"
-                                      }
-                                  ],
-                        "risultato":  null
-                    }
-                ]
+ "cassaIniziale": 25,
+ "sito": "888Sport",
+ "giocate": [
+  {
+   "data": "2026-08-26",
+   "tipo": "TRIPLA",
+   "puntata": 5,
+   "quota": 2.02,
+   "probabilita": 0.4066,
+   "guadagnoAtteso": -0.179,
+   "sito": "888Sport",
+   "gambe": [
+    {
+     "partita": "Real Madrid - Real Sociedad",
+     "campionato": "Liga",
+     "ora": "21:00",
+     "esito": "1",
+     "dice": "vince il Real Madrid",
+     "quota": 1.19,
+     "prob": 0.808,
+     "risultato": "NON_TROVATO",
+     "dettaglio": "partita non trovata nei risultati"
+    },
+    {
+     "partita": "Lione - Fenerbahce",
+     "campionato": "Qual. Champions League",
+     "ora": "21:00",
+     "esito": "1X",
+     "dice": "Lione vince o pareggia",
+     "quota": 1.24,
+     "prob": 0.759,
+     "risultato": "NON_TROVATO",
+     "dettaglio": "partita non trovata nei risultati"
+    },
+    {
+     "partita": "AEK Atene - Levski Sofia",
+     "campionato": "Qual. Champions League",
+     "ora": "21:00",
+     "esito": "1",
+     "dice": "vince AEK Atene",
+     "quota": 1.37,
+     "prob": 0.663,
+     "risultato": "NON_TROVATO",
+     "dettaglio": "partita non trovata nei risultati"
+    }
+   ],
+   "nota": "scelta di John: voleva la tripla. RISULTATO: PERSA (26/08). Serata di soli playoff Champions.",
+   "risultato": "PERDUTA",
+   "cassaDopo": 0.16
+  },
+  {
+   "data": "2026-08-28",
+   "tipo": "SINGOLA",
+   "puntata": 12,
+   "quota": 1.47,
+   "probabilita": 0.85,
+   "guadagnoAtteso": 0.246,
+   "sito": "888Sport",
+   "gambe": [
+    {
+     "partita": "Milan - Venezia",
+     "campionato": "Serie A",
+     "ora": "20:45",
+     "esito": "1",
+     "dice": "vince il Milan",
+     "quota": 1.47,
+     "prob": 0.85,
+     "risultato": "VINTA",
+     "dettaglio": "Milan 2 - 0 Venezia"
+    }
+   ],
+   "nota": "Milan 2-0 Venezia - VINTA",
+   "risultato": "VINTA",
+   "cassaDopo": 17.8
+  },
+  {
+   "data": "2026-08-28",
+   "tipo": "QUINTUPLA",
+   "puntata": 5,
+   "quota": 6.32,
+   "probabilita": 0.49,
+   "guadagnoAtteso": 1.39,
+   "sito": "888Sport",
+   "gambe": [
+    {
+     "partita": "Bayern - Stuttgart",
+     "campionato": "Bundesliga",
+     "ora": "20:30",
+     "esito": "1",
+     "dice": "vince il Bayern",
+     "quota": 1.2,
+     "prob": 0.9,
+     "risultato": "VINTA",
+     "dettaglio": "Bayern 5 - 1 Stuttgart"
+    },
+    {
+     "partita": "Milan - Venezia",
+     "campionato": "Serie A",
+     "ora": "20:45",
+     "esito": "1",
+     "dice": "vince il Milan",
+     "quota": 1.47,
+     "prob": 0.85,
+     "risultato": "VINTA",
+     "dettaglio": "Milan 2 - 0 Venezia"
+    },
+    {
+     "partita": "Sporting - Rio Ave",
+     "campionato": "Liga Portugal",
+     "ora": "19:15",
+     "esito": "1",
+     "dice": "vince lo Sporting",
+     "quota": 1.27,
+     "prob": 0.88,
+     "risultato": "VINTA",
+     "dettaglio": "Sporting 4 - 0 Rio Ave"
+    },
+    {
+     "partita": "Crystal Palace - Man City",
+     "campionato": "Premier League",
+     "ora": "21:00",
+     "esito": "2",
+     "dice": "vince il Man City",
+     "quota": 1.68,
+     "prob": 0.7,
+     "risultato": "VINTA",
+     "dettaglio": "Crystal Palace 1 - 3 Man City"
+    },
+    {
+     "partita": "PSG - Lille",
+     "campionato": "Ligue 1",
+     "ora": "20:45",
+     "esito": "1",
+     "dice": "vince il PSG",
+     "quota": 1.68,
+     "prob": 0.72,
+     "risultato": "PERDUTA",
+     "dettaglio": "PSG 0 - 1 Lille"
+    }
+   ],
+   "nota": "Quintupla multi-sport - 5 favorite forti. Consigliata da sistema + ricerca approfondita. Quota fair 6.32.",
+   "risultato": "PERDUTA",
+   "cassaDopo": 0.16
+  },
+  {
+   "data": "2026-08-31",
+   "tipo": "TRIPLA",
+   "puntata": 1,
+   "quota": 28.39,
+   "probabilita": 0.3631817419915135,
+   "sito": "888Sport",
+   "gambe": [
+    {
+     "partita": "Marin Cilic vs Andrey Rublev",
+     "campionato": "ATP US Open",
+     "ora": "20:45",
+     "esito": "Marin Cilic",
+     "dice": "vince Marin Cilic",
+     "quota": 3.7,
+     "prob": 0.6729549442698989,
+     "risultato": null
+    },
+    {
+     "partita": "Qinwen Zheng vs Kristina Liutova",
+     "campionato": "WTA US Open",
+     "ora": "20:45",
+     "esito": "Kristina Liutova",
+     "dice": "vince Kristina Liutova",
+     "quota": 2.8,
+     "prob": 0.7421037040411167,
+     "risultato": null
+    },
+    {
+     "partita": "Grigor Dimitrov vs Alexei Popyrin",
+     "campionato": "ATP US Open",
+     "ora": "20:45",
+     "esito": "Alexei Popyrin",
+     "dice": "vince Alexei Popyrin",
+     "quota": 2.74,
+     "prob": 0.7272327353878519,
+     "risultato": null
+    }
+   ],
+   "risultato": null,
+   "cassaDopo": null
+  },
+  {
+   "data": "2026-08-29",
+   "tipo": "DOPPIA",
+   "puntata": 1,
+   "quota": 26.55,
+   "probabilita": 0.3401500778636727,
+   "sito": "888Sport",
+   "gambe": [
+    {
+     "partita": "RB Leipzig vs Borussia M'gladbach",
+     "campionato": "Bundesliga - Germany",
+     "ora": "20:45",
+     "esito": "Borussia Monchengladbach",
+     "dice": "vince Borussia M'gladbach",
+     "quota": 5.9,
+     "prob": 0.5462980124632925,
+     "risultato": null
+    },
+    {
+     "partita": "New York Liberty vs Chicago Sky",
+     "campionato": "WNBA",
+     "ora": "20:45",
+     "esito": "Chicago Sky",
+     "dice": "vince Chicago Sky",
+     "quota": 4.5,
+     "prob": 0.622645644141948,
+     "risultato": null
+    }
+   ],
+   "risultato": null,
+   "cassaDopo": null
+  },
+  {
+   "tipo": "SINGOLA",
+   "data": "2026-08-29",
+   "cassaDopo": null,
+   "sito": "888Sport",
+   "probabilita": 0.788,
+   "puntata": 10,
+   "quota": 1.27,
+   "gambe": [
+    {
+     "campionato": "Serie A",
+     "risultato": null,
+     "dice": "vince il Juventus",
+     "quota": 1.27,
+     "ora": "18:45",
+     "esito": "1",
+     "prob": 0.788,
+     "partita": "Juventus vs Parma"
+    }
+   ],
+   "risultato": null
+  },
+  {
+   "tipo": "TRIPLA",
+   "data": "2026-08-29",
+   "cassaDopo": null,
+   "sito": "888Sport",
+   "probabilita": 0.5,
+   "puntata": 5,
+   "quota": 2.82,
+   "gambe": [
+    {
+     "campionato": "Bundesliga",
+     "risultato": null,
+     "dice": "vince il Dortmund",
+     "quota": 1.41,
+     "ora": "16:30",
+     "esito": "1",
+     "prob": 0.713,
+     "partita": "Borussia Dortmund vs Hamburger SV"
+    },
+    {
+     "campionato": "Premier League",
+     "risultato": null,
+     "dice": "vince il Liverpool",
+     "quota": 1.5,
+     "ora": "11:30",
+     "esito": "1",
+     "prob": 0.671,
+     "partita": "Liverpool vs Nottingham Forest"
+    },
+    {
+     "campionato": "Bundesliga",
+     "risultato": null,
+     "dice": "vince il Bayern",
+     "quota": 1.33,
+     "ora": "16:30",
+     "esito": "2",
+     "prob": 0.748,
+     "partita": "FC Schalke 04 vs Bayern Munich"
+    }
+   ],
+   "risultato": null
+  },
+  {
+   "tipo": "QUADRUPLA",
+   "data": "2026-08-29",
+   "cassaDopo": null,
+   "sito": "888Sport",
+   "probabilita": 0.284,
+   "puntata": 10,
+   "quota": 3.16,
+   "gambe": [
+    {
+     "campionato": "Premier League",
+     "risultato": null,
+     "dice": "vince il Liverpool",
+     "quota": 1.45,
+     "ora": "13:30",
+     "esito": "1",
+     "prob": 0.671,
+     "partita": "Liverpool vs Nottingham Forest"
+    },
+    {
+     "campionato": "Bundesliga",
+     "risultato": null,
+     "dice": "vince il Dortmund",
+     "quota": 1.35,
+     "ora": "18:30",
+     "esito": "1",
+     "prob": 0.713,
+     "partita": "Borussia Dortmund vs Hamburger SV"
+    },
+    {
+     "campionato": "Bundesliga",
+     "risultato": null,
+     "dice": "vince il Bayern",
+     "quota": 1.3,
+     "ora": "18:30",
+     "esito": "2",
+     "prob": 0.748,
+     "partita": "FC Schalke 04 vs Bayern Munich"
+    },
+    {
+     "campionato": "Serie A",
+     "risultato": null,
+     "dice": "vince il Juventus",
+     "quota": 1.24,
+     "ora": "20:45",
+     "esito": "1",
+     "prob": 0.788,
+     "partita": "Juventus vs Parma"
+    }
+   ],
+   "risultato": null
+  },
+  {
+   "data": "2026-08-30",
+   "tipo": "DOPPIA",
+   "puntata": 1,
+   "quota": 28.88,
+   "probabilita": 0.22834065912393783,
+   "sito": "888Sport",
+   "gambe": [
+    {
+     "partita": "Rennes vs Le Mans FC",
+     "campionato": "Ligue 1 - France",
+     "ora": "20:45",
+     "esito": "Le Mans FC",
+     "dice": "vince Le Mans FC",
+     "quota": 7.6,
+     "prob": 0.5046073896616021,
+     "risultato": null
+    },
+    {
+     "partita": "AS Monaco vs Marseille",
+     "campionato": "Ligue 1 - France",
+     "ora": "20:45",
+     "esito": "Draw",
+     "dice": "vince il pareggio",
+     "quota": 3.8,
+     "prob": 0.4525115244092378,
+     "risultato": null
+    }
+   ],
+   "risultato": null,
+   "cassaDopo": null
+  }
+ ]
 }
