@@ -98,11 +98,11 @@ Puntata: EUR ${puntata}
 Vincita: EUR ${vincita}
 Rimanente: EUR ${rimanente}
 
-Verifica quota su 888Sport`;
+Verifica quota su SNAI`;
 
   const bottoni = {
     inline_keyboard: [[
-      { text: 'GIOCA SINGOLA', url: 'https://www.888sport.it' }
+      { text: 'GIOCA SU SNAI', url: 'https://www.snai.it' }
     ]]
   };
 
@@ -133,11 +133,11 @@ Puntata: EUR ${puntata}
 Vincita: EUR ${vincita}
 Rimanente: EUR ${rimanente}
 
-Verifica quote su 888Sport`;
+Verifica quote su SNAI`;
 
   const bottoni = {
     inline_keyboard: [[
-      { text: 'GIOCA TRIPLA', url: 'https://www.888sport.it' }
+      { text: 'GIOCA SU SNAI', url: 'https://www.snai.it' }
     ]]
   };
 
