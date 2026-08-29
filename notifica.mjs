@@ -80,10 +80,10 @@ export async function inviaTesto(testo) {
 
 // ─── FORMATO SINGOLA ────────────────────────────────────
 
-export function singola(partita, quota, esito, puntata, bankroll) {
+export function singola(partita, quota, esito, puntata, bankroll, oraPartita) {
   const data = getData();
   const vincita = (puntata * quota).toFixed(2);
-  const ore = getOra();
+  const ore = oraPartita || getOraItaliana();
   const rimanente = bankroll ? (bankroll - puntata).toFixed(2) : '?';
 
   const testo = `${data}
@@ -168,11 +168,11 @@ Puntata: EUR ${puntata}
 Vincita: EUR ${vincita}
 Rimanente: EUR ${rimanente}
 
-Verifica quote su 888Sport`;
+Verifica quote su SNAI`;
 
   const bottoni = {
     inline_keyboard: [[
-      { text: 'GIOCA MULTIPLA', url: 'https://www.888sport.it' }
+      { text: 'GIOCA SU SNAI', url: 'https://www.snai.it' }
     ]]
   };
 
@@ -209,7 +209,19 @@ function getData() {
   return `${oggi.getDate()} ${mesi[oggi.getMonth()]} ${oggi.getFullYear()}`;
 }
 
-function getOra() {
+function getOraItaliana() {
   const oggi = new Date();
-  return `${String(oggi.getHours()).padStart(2,'0')}:${String(oggi.getMinutes()).padStart(2,'0')}`;
+  // UTC+2 per ora italiana (estate)
+  const ore = (oggi.getUTCHours() + 2) % 24;
+  const min = oggi.getUTCMinutes();
+  return `${String(ore).padStart(2,'0')}:${String(min).padStart(2,'0')}`;
+}
+
+// Converte data UTC in ora italiana
+export function oraItaliana(dataUTC) {
+  if (!dataUTC) return '?';
+  const d = new Date(dataUTC);
+  const ore = (d.getUTCHours() + 2) % 24;
+  const min = d.getUTCMinutes();
+  return `${String(ore).padStart(2,'0')}:${String(min).padStart(2,'0')}`;
 }
